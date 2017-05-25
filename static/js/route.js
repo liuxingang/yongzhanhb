@@ -4,10 +4,11 @@
 //配置ip
 var ip = "";
 
-var routeApp = angular.module('routeApp',['ngRoute']);
+var routeApp = angular.module('routeApp',['ngRoute','ngSanitize']);
     routeApp.config(['$routeProvider','$locationProvider',function($routeProvider,$locationProvider){
         $routeProvider.when('/',{templateUrl:'views/main.html',controller:'mainApp'})
             .when('/news/company',{templateUrl:'views/news/list.html',controller:'CompanyNewsListCtrl'})
+            .when('/news/company/detail/:id',{templateUrl:'views/news/detail.html',controller:'CompanyNewsDetailCtrl'})
             .when('/product1/details',{templateUrl:'views/details1.html',controller:'details1Ctrl'})
             .when('/product2/details',{templateUrl:'views/details2.html',controller:'details1Ctrl'})
             .when('/product3/details',{templateUrl:'views/details3.html',controller:'details1Ctrl'})

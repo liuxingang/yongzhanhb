@@ -1,0 +1,23 @@
+<div class="banner-img"></div>
+
+<div class="container m-wrap m-20 clearFloat">
+    <div class="left-sidebar">
+        <ul>
+            <li class="sidebar-head">关于我们</li>
+            <li class="sidebar-item "><a href="#/news/company">公司新闻</a></li>
+            <li class="sidebar-item "><a href="/news/tradeNews">行业动态</a></li>
+            <li class="sidebar-item "><a href="/news/tradeNews">技术服务</a></li>
+
+        </ul>
+    </div>
+    <div class="right-wrap new-detail">
+        <div class="title">
+            <span>{{data.channelName}}</span>
+        </div>
+        <div class="content">
+            <h4>{{data.title}}</h4>
+            <p class="pubdata">{{data.timerecorded}}</p>
+            <div class="text" ng-bind-html="content"></div>
+        </div>
+    </div>
+</div>

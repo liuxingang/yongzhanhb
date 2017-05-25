@@ -158,7 +158,20 @@ routeApp.controller('CompanyNewsListCtrl', function($scope,$routeParams, $http) 
     $http.get(ip + "/api/v1/index/companyNews")
         .success(function (data) {
             $scope.data = data.data;
-            console.log(data)
+        });
+
+});
+//公司新闻详情页
+routeApp.controller('CompanyNewsDetailCtrl', function($scope,$routeParams, $http, $sce) {
+    var id = $routeParams.id;
+    $http.get(ip + "/api/v1/index/companyNews")
+        .success(function (data) {
+            for(var i= 0;i<data.data.length;i++){
+                if(data.data[i].id == id){
+                    $scope.data = data.data[i];
+                    $scope.content = $sce.trustAsHtml(data.data[i].content)
+                }
+            }
         });
 
 });
