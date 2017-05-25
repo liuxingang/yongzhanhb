@@ -18,17 +18,7 @@ routeApp.directive('onFinishRenderFilters', function ($timeout) {
 
 routeApp.controller('mainApp', function($scope) {
 
-    //加载完成
-    $scope.$on('ngRepeatFinished', function (ngRepeatFinishedEvent) {
-        var mySwiper = new Swiper('.swiper-container', {
-            autoplay: 4000,
-            speed: 500,
-            pagination: '.pagination',
-            loop: true,
-            grabCursor: true,
-            paginationClickable: true
-        });
-    });
+
 
 });
 
@@ -40,6 +30,19 @@ routeApp.controller('carouselCtrl', function ($scope, $routeParams, $http) {
         .success(function (data) {
             $scope.data = data.data;
         });
+
+    //加载完成
+    $scope.$on('ngRepeatFinished', function (ngRepeatFinishedEvent) {
+        var mySwiper = new Swiper('.swiper-container', {
+            autoplay: 4000,
+            speed: 500,
+            pagination: '.pagination',
+            loop: true,
+            grabCursor: true,
+            paginationClickable: true,
+            autoplayDisableOnInteraction : false,
+        });
+    });
 });
 
 //首页产品展示轮播图
