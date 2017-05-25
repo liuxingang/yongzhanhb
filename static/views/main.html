@@ -1,0 +1,181 @@
+<!--swiper-->
+<div class="swiper-container" id="swiper" ng-controller="carouselCtrl">
+    <div class="swiper-wrapper ">
+        <div class="swiper-slide" on-finish-render-filters  ng-repeat="item in data">
+            <a href="#/">
+                <img ng-src="{{item.content}}" >
+            </a>
+        </div>
+    </div>
+
+    <div class="pagination"></div>
+
+</div>
+
+<div class="m-wrap m-20 clearFloat">
+    <div class="pannel-left business-area">
+        <div class="pannel-head">
+            <h3>
+                业务领域
+            </h3>
+
+        </div>
+        <div class="pannel-body ">
+            <ul>
+                <li>
+                    <a href="#/"><i> > </i> 环保咨询</a>
+                </li>
+                <li>
+                    <a href="#/"> <i> > </i>废水处理</a>
+                </li>
+                <li>
+                    <a href="#/"><i> > </i>烟气处理</a>
+                </li>
+                <li>
+                    <a href="#/"><i> > </i>设备制造</a>
+                </li>
+                <li>
+                    <a href="#/"><i> > </i>其它业务</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="pannel product-show" ng-controller="productCarouselCtrl">
+        <div class="pannel-head">
+            <h3>
+                产品展示
+                <span class="more">
+                        <a href="/news/companyNews">更多>></a>
+                    </span>
+            </h3>
+
+        </div>
+        <div class="pannel-body">
+            <div class="swiper-container productCarousel">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" on-finish-render-filters ng-repeat="item in data">
+                        <a ng-href="{{item.url}}">
+                            <p>
+                                <img ng-src="{{item.content}}" alt="">
+                            </p>
+                            <p class="title">{{item.title}}</p>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-container productCarousel2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" on-finish-render-filters ng-repeat="item in data">
+                        <a ng-href="{{item.url}}">
+                            <p>
+                                <img ng-src="{{item.content}}" alt="">
+                            </p>
+                            <p class="title">{{item.title}}</p>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="m-wrap m-20 clearFloat">
+    <div class="line"></div>
+    <div class="company-intro f-left">
+        <h3>公司简介</h3>
+        <div class="clearFloat">
+            <div class="f-left">
+                <img src="/images/company.jpg" alt="公司简介">
+            </div>
+            <div class="f-left company-text">
+                <ul>
+                    <li>销售部：188-8888-8888</li>
+                    <li>技术部：188-8888-8888</li>
+                    <li>地&nbsp;&nbsp;&nbsp;址：河南省洛阳市经济技术开发区</li>
+                    <li>邮&nbsp;&nbsp;&nbsp;箱：123456789@qq.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="company-honor f-right" ng-controller="honorCarouselCtrl">
+        <h3>资质荣誉</h3>
+        <a class="arrow-left" href="#"> < </a>
+        <a class="arrow-right" href="#"> > </a>
+        <div class="swiper-container honorCarousel">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" on-finish-render-filters ng-repeat="item in data">
+                    <a ng-href="{{item.url}}">
+                        <p>
+                            <img ng-src="{{item.content}}" alt="">
+                        </p>
+                        <p class="title">{{item.title}}</p>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!--工程案例-->
+<div class="m-wrap m-20 clearFloat">
+
+    <div class="project" ng-controller="projectCarouselCtrl">
+        <h3>工程案例</h3>
+        <div class="swiper-container projectCarousel">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" on-finish-render-filters ng-repeat="item in data">
+                    <a ng-href="{{item.url}}">
+                        <p>
+                            <img ng-src="{{item.content}}" alt="">
+                        </p>
+                        <p class="title">{{item.title}}</p>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!--公司新闻-->
+<div class="m-wrap m-20 news-wrap clearFloat">
+    <div class="line"></div>
+    <div class="company-news news f-left" ng-controller="companyNewsCtrl">
+        <h4>公司新闻</h4>
+        <ul>
+            <li ng-repeat="item in data">
+                <a href="#/"> > <span class="title">{{item.title}}</span> <span class="pubdate">{{item.timerecorded}}</span> </a>
+            </li>
+
+        </ul>
+    </div>
+    <div class="trade-news news f-left">
+        <h4>行业动态</h4>
+        <ul>
+            <li>
+                <a href="#/"> > <span class="title">大技能卡哪款时刻都能发看能否</span> <span class="pubdate">2017-1-1</span> </a>
+            </li>
+        </ul>
+    </div>
+    <div class="services news f-left">
+        <h4>技术服务</h4>
+        <ul>
+            <li>
+                <a href="#/"> > <span class="title">大技能卡哪款时刻都能发看能否</span> <span class="pubdate">2017-1-1</span> </a>
+            </li>
+        </ul>
+    </div>
+
+</div>

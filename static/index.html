@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en" ng-app="routeApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/lib/swiper/idangerous.swiper.css">
+    <link rel="stylesheet" href="/lib/swiper/idangerous.swiper.scrollbar.css">
+    <link href="/css/index.css" rel="stylesheet">
+    <title>河南永湛环保</title>
+</head>
+<body>
+    <header>
+        <h1>header</h1>
+        <nav>
+            <div class="nav-wrapper m-wrap">
+                <ul class="nav nav-bar clearFloat">
+                    <li><a href="/">首页</a></li>
+                    <li class="dropDown-wrap">
+                        <a href="#" >关于永湛</a>
+                        <ul class="dropDown-menu">
+                            <li><a href="/about/intro">公司简介</a></li>
+                            <li><a href="/about/development">企业文化</a></li>
+                            <li><a href="/about/cultural">组织结构</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropDown-wrap">
+                        <a href="#" >业务领域</a>
+                        <ul class="dropDown-menu">
+                            <li><a href="/news/companyNews">环保咨询</a></li>
+                            <li><a href="/news/tradeNews">废水处理</a></li>
+                            <li><a href="/news/tradeNews">烟气处理</a></li>
+                            <li><a href="/news/tradeNews">设备制造</a></li>
+                            <li><a href="/news/tradeNews">其它业务</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropDown-wrap">
+                        <a href="#" >公司业绩</a>
+
+                    </li>
+                    <li class="dropDown-wrap">
+                        <a href="#" >资质荣誉</a>
+                    </li>
+                    <li class="dropDown-wrap">
+                        <a href="#" >新闻资讯</a>
+                        <ul class="dropDown-menu">
+                            <li><a href="/news/companyNews">公司新闻</a></li>
+                            <li><a href="/news/tradeNews">行业新闻</a></li>
+                            <li><a href="/news/tradeNews">技术支持</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropDown-wrap">
+                        <a href="#" >售后服务</a>
+                        <ul class="dropDown-menu">
+                            <li><a href="/news/companyNews">人才招聘</a></li>
+                            <li><a href="/news/tradeNews">联系我们</a></li>
+                            <li><a href="/news/tradeNews">技术服务</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div ng-view></div>
+
+
+    <script src="/lib/jquery/jquery-3.1.1.min.js"></script>
+    <script src="/lib/swiper/idangerous.swiper.min.js"></script>
+    <script src="/lib/swiper/idangerous.swiper.scrollbar-2.1.js"></script>
+    <script src="/lib/angular/angular.min.js"></script>
+    <script src="/lib/angular/angular-route.min.js"></script>
+    <!--<script src="libs/angular/angular-sanitize.min.js"></script>-->
+    <script src="/js/route.js"></script>
+    <script src="/js/controller.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>

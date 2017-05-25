@@ -1,0 +1,192 @@
+{
+  "carouselBanner": [
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.lysmhb.com/imageRepository/e3cf2751-d10e-42d1-8bca-6d898e4014cb.jpg",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13 11:45:26",
+      "title": "banner1",
+      "url": "www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    },
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.lysmhb.com/imageRepository/194234c3-5fc8-4b09-add7-8d09c4483b8e.jpg",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13 11:45:26",
+      "title": "banner1",
+      "url": "www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    },
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.lysmhb.com/imageRepository/cc9a44cc-c000-4d96-b7cf-c11a728c8973.jpg",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13 11:45:26",
+      "title": "banner1",
+      "url": "http://www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    }
+  ],
+  "productsShow": [
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.lysmhb.com/imageRepository/b6229a8e-7bc3-4f25-8321-ceceb8303f7a.gif",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13 11:45:26",
+      "title": "废水处理",
+      "url": "http://www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    },
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.lysmhb.com/imageRepository/b6229a8e-7bc3-4f25-8321-ceceb8303f7a.gif",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13 11:45:26",
+      "title": "废水处理2",
+      "url": "www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    },
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.lysmhb.com/imageRepository/b6229a8e-7bc3-4f25-8321-ceceb8303f7a.gif",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13 11:45:26",
+      "title": "废水处理3",
+      "url": "http://www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    }
+  ],
+  "honorList": [
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.originwater.com/uploads/160128/1-16012Q35921B4.jpg",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13 11:45:26",
+      "title": "资质荣誉",
+      "url": "http://www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    },
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.originwater.com/uploads/160128/1-16012Q35921B4.jpg",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13 11:45:26",
+      "title": "资质荣誉1",
+      "url": "www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    },
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.originwater.com/uploads/160128/1-16012Q35921B4.jpg",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13 11:45:26",
+      "title": "资质荣誉3",
+      "url": "http://www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    }
+  ],
+  "projects": [
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.lysmhb.com/imageRepository/b6229a8e-7bc3-4f25-8321-ceceb8303f7a.gif",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13 11:45:26",
+      "title": "废水处理",
+      "url": "http://www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    },
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.lysmhb.com/imageRepository/b6229a8e-7bc3-4f25-8321-ceceb8303f7a.gif",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13 11:45:26",
+      "title": "废水处理2",
+      "url": "www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    },
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.lysmhb.com/imageRepository/b6229a8e-7bc3-4f25-8321-ceceb8303f7a.gif",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13 11:45:26",
+      "title": "废水处理3",
+      "url": "http://www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    }
+  ],
+  "companyNews": [
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.lysmhb.com/imageRepository/b6229a8e-7bc3-4f25-8321-ceceb8303f7a.gif",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13",
+      "title": "大技能卡哪款时刻都能发看能否",
+      "url": "http://www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    },
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.lysmhb.com/imageRepository/b6229a8e-7bc3-4f25-8321-ceceb8303f7a.gif",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13",
+      "title": "大技能卡哪款时刻都能发看能否",
+      "url": "www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    },
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "http://www.lysmhb.com/imageRepository/b6229a8e-7bc3-4f25-8321-ceceb8303f7a.gif",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13",
+      "title": "大技能卡哪款时刻都能发看能否",
+      "url": "http://www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    }
+  ]
+}
