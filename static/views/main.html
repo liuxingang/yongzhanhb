@@ -1,5 +1,5 @@
 <!--swiper-->
-<div class="swiper-container" id="swiper" ng-controller="carouselCtrl">
+<div class="swiper-container swiper-banner" id="swiper" ng-controller="carouselCtrl">
     <div class="swiper-wrapper ">
         <div class="swiper-slide" on-finish-render-filters  ng-repeat="item in data">
             <a href="#/">
@@ -152,7 +152,7 @@
 <!--公司新闻-->
 <div class="m-wrap m-20 news-wrap clearFloat">
     <div class="line"></div>
-    <div class="company-news news f-left" ng-controller="companyNewsCtrl">
+    <div class="company-news news f-left" ng-controller="mainCompanyNewsCtrl">
         <h4>公司新闻</h4>
         <ul>
             <li ng-repeat="item in data">

@@ -423,6 +423,22 @@ nav{
     background: #dadada;
     padding:6px;
     text-align: center;
+    font-size: 12px;
+}
+
+
+/*新闻列表页*/
+.banner-img{
+    height: 400px;
+    background-image: url("http://www.lysmhb.com/imageRepository/194234c3-5fc8-4b09-add7-8d09c4483b8e.jpg");
+    background-size: auto 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+.news-wrap .right-wrap .content .item{
+    border-bottom: 1px dotted grey;
+    padding:10px;
 }
 
 /*新闻详情*/

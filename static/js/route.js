@@ -7,7 +7,7 @@ var ip = "";
 var routeApp = angular.module('routeApp',['ngRoute']);
     routeApp.config(['$routeProvider','$locationProvider',function($routeProvider,$locationProvider){
         $routeProvider.when('/',{templateUrl:'views/main.html',controller:'mainApp'})
-            .when('/products',{templateUrl:'views/products.html',controller:'productsCtrl'})
+            .when('/news/company',{templateUrl:'views/news/list.html',controller:'CompanyNewsListCtrl'})
             .when('/product1/details',{templateUrl:'views/details1.html',controller:'details1Ctrl'})
             .when('/product2/details',{templateUrl:'views/details2.html',controller:'details1Ctrl'})
             .when('/product3/details',{templateUrl:'views/details3.html',controller:'details1Ctrl'})

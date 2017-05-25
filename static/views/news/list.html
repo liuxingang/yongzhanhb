@@ -1,0 +1,28 @@
+<div class="banner-img">
+    <!--<img src="http://www.lysmhb.com/imageRepository/194234c3-5fc8-4b09-add7-8d09c4483b8e.jpg" alt="" width="100%">-->
+</div>
+
+<div class="news-wrap m-wrap m-20 clearFloat">
+    <div class="left-sidebar">
+        <ul>
+            <li class="sidebar-head">关于我们</li>
+            <li class="sidebar-item "><a href="/news/companyNews">公司新闻</a></li>
+            <li class="sidebar-item "><a href="/news/tradeNews">行业动态</a></li>
+            <li class="sidebar-item "><a href="/news/tradeNews">技术服务</a></li>
+
+        </ul>
+    </div>
+    <div class="right-wrap">
+        <div class="title">
+            <span>{{data[0].channelName}}</span>
+        </div>
+        <div class="content">
+            <div ng-repeat="item in data" class="item clearFloat">
+                <ul>
+                    <li class="f-left"><a href="/news/companyNews/">{{item.title}}</a></li>
+                    <li class="f-right"><span>{{item.timerecorded}}</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

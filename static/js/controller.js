@@ -26,14 +26,10 @@ routeApp.controller('mainApp', function($scope) {
 
 //轮播图
 routeApp.controller('carouselCtrl', function ($scope, $routeParams, $http) {
-    $http.get(ip + "/api/v1/index/carousel")
-        .success(function (data) {
-            $scope.data = data.data;
-        });
 
-    //加载完成
+    // //加载完成
     $scope.$on('ngRepeatFinished', function (ngRepeatFinishedEvent) {
-        var mySwiper = new Swiper('.swiper-container', {
+        var mySwiper = new Swiper('.swiper-banner', {
             autoplay: 4000,
             speed: 500,
             pagination: '.pagination',
@@ -43,6 +39,12 @@ routeApp.controller('carouselCtrl', function ($scope, $routeParams, $http) {
             autoplayDisableOnInteraction : false,
         });
     });
+
+    $http.get(ip + "/api/v1/index/carousel")
+        .success(function (data) {
+            $scope.data = data.data;
+        });
+
 });
 
 //首页产品展示轮播图
@@ -76,7 +78,6 @@ routeApp.controller('productCarouselCtrl', function($scope,$routeParams, $http) 
     $http.get(ip + "/api/v1/index/products")
         .success(function (data) {
             $scope.data = data.data;
-            console.log(data)
         });
 
 
@@ -108,7 +109,6 @@ routeApp.controller('honorCarouselCtrl', function($scope,$routeParams, $http) {
     $http.get(ip + "/api/v1/index/honors")
         .success(function (data) {
             $scope.data = data.data;
-            console.log(data)
         });
 
 
@@ -131,7 +131,6 @@ routeApp.controller('projectCarouselCtrl', function($scope,$routeParams, $http) 
     $http.get(ip + "/api/v1/index/products")
         .success(function (data) {
             $scope.data = data.data;
-            console.log(data)
         });
 
 
@@ -139,10 +138,22 @@ routeApp.controller('projectCarouselCtrl', function($scope,$routeParams, $http) 
 });
 
 
-//首页工程案例轮播图
-routeApp.controller('companyNewsCtrl', function($scope,$routeParams, $http) {
+//首页新闻列表
+routeApp.controller('mainCompanyNewsCtrl', function($scope,$routeParams, $http) {
 
 
+
+    $http.get(ip + "/api/v1/index/companyNews")
+        .success(function (data) {
+            $scope.data = data.data;
+        });
+
+});
+
+
+
+//公司新闻列表页
+routeApp.controller('CompanyNewsListCtrl', function($scope,$routeParams, $http) {
 
     $http.get(ip + "/api/v1/index/companyNews")
         .success(function (data) {
@@ -150,8 +161,8 @@ routeApp.controller('companyNewsCtrl', function($scope,$routeParams, $http) {
             console.log(data)
         });
 
-
-
 });
+
+
 
 
