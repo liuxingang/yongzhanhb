@@ -400,8 +400,11 @@ nav{
 .footer-wrap .footer-nav{
     padding:20px 0;
 }
+.footer-wrap .footer-nav .logo{
+    margin-left:80px;
+}
 .footer-wrap .footer-nav .f-right{
-    margin-right: 230px;
+    margin-right: 200px;
     margin-top: 8px;
 }
 .footer-wrap .footer-nav ul>li{
