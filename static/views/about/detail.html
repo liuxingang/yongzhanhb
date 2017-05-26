@@ -1,0 +1,21 @@
+<div class="banner-img"></div>
+
+<div class="container m-wrap m-20 clearFloat">
+    <div class="left-sidebar">
+        <ul>
+            <li class="sidebar-head">关于永湛</li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'intro'}"><a href="#/about/intro">公司简介</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'culture'}"><a href="#/about/culture">企业文化</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType=== 'service'}"><a href="#/news/service">组织机构</a></li>
+
+        </ul>
+    </div>
+    <div class="right-wrap new-detail">
+        <div class="title">
+            <span>{{data.channelName}}</span>
+        </div>
+        <div class="content">
+            <div class="text" ng-bind-html="content"></div>
+        </div>
+    </div>
+</div>

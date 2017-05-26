@@ -12,6 +12,7 @@ var projects = data.projects;
 var companyNews = data.companyNews;
 var tradeNews = data.tradeNews;
 var serviceNews = data.serviceNews;
+var aboutUs = data.aboutUs;
 
 
 
@@ -73,6 +74,23 @@ router.get('/api/v1/index/serviceNews',function(req,res){
 
     res.send({
         data: serviceNews
+    });
+
+});
+
+//企业简介
+router.get('/api/v1/about/companyIntro',function(req,res){
+
+    res.send({
+        data: aboutUs.companyIntro
+    });
+
+});
+//企业文化
+router.get('/api/v1/about/companyCulture',function(req,res){
+
+    res.send({
+        data: aboutUs.companyCulture
     });
 
 });

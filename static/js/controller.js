@@ -261,5 +261,28 @@ routeApp.controller('serviceNewsDetailCtrl', function($scope,$routeParams, $http
 });
 
 
+//企业简介
+routeApp.controller('companyIntroCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "intro";
+    $http.get(ip + "/api/v1/about/companyIntro")
+        .success(function (data) {
+            $scope.data = data.data;
+            $scope.content = $sce.trustAsHtml(data.data.content)
+        });
+
+});
+
+//企业文化
+routeApp.controller('companyCultureCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "culture";
+    $http.get(ip + "/api/v1/about/companyCulture")
+        .success(function (data) {
+            $scope.data = data.data;
+            $scope.content = $sce.trustAsHtml(data.data.content)
+        });
+
+});
+
+
 
 
