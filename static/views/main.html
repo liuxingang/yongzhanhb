@@ -156,24 +156,24 @@
         <h4>公司新闻</h4>
         <ul>
             <li ng-repeat="item in data">
-                <a href="#/"> > <span class="title">{{item.title}}</span> <span class="pubdate">{{item.timerecorded}}</span> </a>
+                <a href="#/news/company/detail/{{item.id}}"> > <span class="title">{{item.title}}</span> <span class="pubdate">{{item.timerecorded}}</span> </a>
             </li>
 
         </ul>
     </div>
-    <div class="trade-news news f-left">
+    <div class="trade-news news f-left" ng-controller="mainTradeNewsCtrl">
         <h4>行业动态</h4>
         <ul>
-            <li>
-                <a href="#/"> > <span class="title">大技能卡哪款时刻都能发看能否</span> <span class="pubdate">2017-1-1</span> </a>
+            <li ng-repeat="item in data">
+                <a href="#/news/trade/detail/{{item.id}}"> > <span class="title">{{item.title}}</span> <span class="pubdate">{{item.timerecorded}}</span> </a>
             </li>
         </ul>
     </div>
-    <div class="services news f-left">
+    <div class="services news f-left" ng-controller="mainServiceNewsCtrl">
         <h4>技术服务</h4>
         <ul>
-            <li>
-                <a href="#/"> > <span class="title">大技能卡哪款时刻都能发看能否</span> <span class="pubdate">2017-1-1</span> </a>
+            <li ng-repeat="item in data">
+                <a href="#/news/service/detail/{{item.id}}"> > <span class="title">{{item.title}}</span> <span class="pubdate">{{item.timerecorded}}</span> </a>
             </li>
         </ul>
     </div>

@@ -324,7 +324,7 @@ nav{
     border-bottom: 1px solid #e7e7e7;
 }
 .left-sidebar li.sidebar-item:hover{
-    background: #ee7615;
+    background: #015db2;
     transition: all 1s;
     padding-right:20px;
 }
@@ -333,7 +333,7 @@ nav{
     transition: all 1s;
 }
 .left-sidebar li.active{
-    border-left: 3px solid #ee7615;
+    border-left: 3px solid #015db2;
 
 }
 .left-sidebar li.active:hover{
@@ -342,11 +342,11 @@ nav{
 
 }
 .left-sidebar li.active a{
-    color: #ee7615;
+    color: #015db2;
 
 }
 .left-sidebar li.active:hover a{
-    color:#ee7615;
+    color:#015db2;
 
 }
 .left-sidebar .sidebar-head{
@@ -378,10 +378,10 @@ nav{
     border-bottom: 1px solid #e7e7e7;
 }
 .right-wrap .title span{
-    color:#ee7615;
+    color:#015db2;
     font-size: 18px;
     display: inline-block;
-    border-bottom: 3px solid #ee7615;
+    border-bottom: 3px solid #015db2;
 }
 .right-wrap .content {
     padding-top:20px;

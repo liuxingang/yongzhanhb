@@ -145,7 +145,8 @@ routeApp.controller('mainCompanyNewsCtrl', function($scope,$routeParams, $http) 
 
     $http.get(ip + "/api/v1/index/companyNews")
         .success(function (data) {
-            $scope.data = data.data;
+            var list = data.data.slice(0,6);
+            $scope.data = list;
         });
 
 });
@@ -154,7 +155,7 @@ routeApp.controller('mainCompanyNewsCtrl', function($scope,$routeParams, $http) 
 
 //公司新闻列表页
 routeApp.controller('CompanyNewsListCtrl', function($scope,$routeParams, $http) {
-
+    $scope.urlType = "company";
     $http.get(ip + "/api/v1/index/companyNews")
         .success(function (data) {
             $scope.data = data.data;
@@ -163,8 +164,91 @@ routeApp.controller('CompanyNewsListCtrl', function($scope,$routeParams, $http) 
 });
 //公司新闻详情页
 routeApp.controller('CompanyNewsDetailCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "company";
     var id = $routeParams.id;
     $http.get(ip + "/api/v1/index/companyNews")
+        .success(function (data) {
+            for(var i= 0;i<data.data.length;i++){
+                if(data.data[i].id == id){
+                    $scope.data = data.data[i];
+                    $scope.content = $sce.trustAsHtml(data.data[i].content)
+                }
+            }
+        });
+
+});
+
+
+//首页行业资讯
+routeApp.controller('mainTradeNewsCtrl', function($scope,$routeParams, $http) {
+
+
+
+    $http.get(ip + "/api/v1/index/tradeNews")
+        .success(function (data) {
+            var list = data.data.slice(0,6);
+            $scope.data = list;
+        });
+
+});
+
+
+
+//行业资讯列表页
+routeApp.controller('TradeNewsListCtrl', function($scope,$routeParams, $http) {
+    $scope.urlType = "trade";
+    $http.get(ip + "/api/v1/index/tradeNews")
+        .success(function (data) {
+            $scope.data = data.data;
+        });
+
+});
+//行业资讯详情页
+routeApp.controller('TradeNewsDetailCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "trade";
+    var id = $routeParams.id;
+    $http.get(ip + "/api/v1/index/tradeNews")
+        .success(function (data) {
+            for(var i= 0;i<data.data.length;i++){
+                if(data.data[i].id == id){
+                    $scope.data = data.data[i];
+                    $scope.content = $sce.trustAsHtml(data.data[i].content)
+                }
+            }
+        });
+
+});
+
+
+//首页技术服务
+routeApp.controller('mainServiceNewsCtrl', function($scope,$routeParams, $http) {
+
+
+
+    $http.get(ip + "/api/v1/index/serviceNews")
+        .success(function (data) {
+            var list = data.data.slice(0,6);
+            $scope.data = list;
+        });
+
+});
+
+
+
+//技术服务列表页
+routeApp.controller('serviceNewsListCtrl', function($scope,$routeParams, $http) {
+    $scope.urlType = "service";
+    $http.get(ip + "/api/v1/index/serviceNews")
+        .success(function (data) {
+            $scope.data = data.data;
+        });
+
+});
+//技术服务详情页
+routeApp.controller('serviceNewsDetailCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "service";
+    var id = $routeParams.id;
+    $http.get(ip + "/api/v1/index/serviceNews")
         .success(function (data) {
             for(var i= 0;i<data.data.length;i++){
                 if(data.data[i].id == id){
