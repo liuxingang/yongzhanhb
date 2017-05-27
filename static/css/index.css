@@ -6,6 +6,7 @@
 html, body {
     font-family: "Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif";
     font-size: 14px;
+    min-width: 1200px;
 }
 
 header {
@@ -58,6 +59,9 @@ div {
 }
 
 .header .logo {
+}
+.min-w{
+    min-width: 1200px;
 }
 
 nav {
