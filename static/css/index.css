@@ -434,6 +434,10 @@ nav {
     width: 100%;
     box-sizing: border-box;
 }
+.news-wrap .news ul li a:hover{
+    color: #015db2;
+    text-decoration: underline;
+}
 
 .news-wrap .news ul li .pubdate {
     float: right;
