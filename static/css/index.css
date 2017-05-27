@@ -291,6 +291,10 @@ nav {
 }
 
 /*首页公司简介*/
+.company-wrap{
+    background: #fff;
+    padding: 18px;
+}
 .company-intro {
     padding: 10px;
 }
@@ -371,7 +375,7 @@ nav {
 /*新闻资讯*/
 .column-header{
     font-size: 20px;
-    padding:4px;
+    padding:10px;
     color:#0b6ac1;
 }
 .column-header span{
@@ -381,7 +385,7 @@ nav {
 }
 .news-wrap {
     background: #fff;
-    padding: 33px 18px;
+    padding: 18px;
 }
 
 .news-wrap .news {
@@ -430,7 +434,7 @@ nav {
 
 /*关于我们*/
 .m-20 {
-    margin-top: 20px;
+    padding:20px;
 }
 
 .banner {
