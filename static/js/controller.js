@@ -282,6 +282,16 @@ routeApp.controller('companyCultureCtrl', function($scope,$routeParams, $http, $
         });
 
 });
+//组织机构
+routeApp.controller('companyOrganizationCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "organization";
+    $http.get(ip + "/api/v1/about/companyOrganization")
+        .success(function (data) {
+            $scope.data = data.data;
+            $scope.content = $sce.trustAsHtml(data.data.content)
+        });
+
+});
 
 
 

@@ -95,6 +95,15 @@ router.get('/api/v1/about/companyCulture',function(req,res){
 
 });
 
+//组织机构
+router.get('/api/v1/about/companyOrganization',function(req,res){
+
+    res.send({
+        data: aboutUs.companyOrganization
+    });
+
+});
+
 
 
 

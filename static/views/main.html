@@ -1,15 +1,33 @@
 <!--swiper-->
 <div class="swiper-container swiper-banner" id="swiper" ng-controller="carouselCtrl">
     <div class="swiper-wrapper ">
-        <div class="swiper-slide" on-finish-render-filters  ng-repeat="item in data">
+        <div class="swiper-slide" on-finish-render-filters ng-repeat="item in data">
             <a href="#/">
-                <img ng-src="{{item.content}}" >
+                <img ng-src="{{item.content}}">
             </a>
         </div>
     </div>
 
     <div class="pagination"></div>
 
+</div>
+
+<div class="search-bg">
+    <div class="m-wrap main clearFloat">
+        <div class="keywords">热门搜索：
+            <a href="#" target="_blank">布袋除尘器</a>
+            <a href="#" target="_blank">除尘布袋</a>
+            <a href="#" target="_blank">脉冲袋式除尘器</a>
+        </div>
+        <div id="search_right">
+            <form action="#">
+                <input type="hidden" name="s" value="7738050836510114634">
+                <span id="submit"><input type="submit" value=""  style="cursor:hand;"></span>
+
+                <input id="search" name="q" style="outline:medium;" value="请输入关键词" type="text" onfocus="if(this.value=='请输入关键词')this.value='';" onblur="if(this.value=='') this.value='';">
+            </form>
+        </div>
+    </div>
 </div>
 
 <div class="m-wrap m-20 clearFloat">
@@ -85,52 +103,57 @@
     </div>
 </div>
 
-<div class="m-wrap m-20 clearFloat">
-    <div class="line"></div>
-    <div class="company-intro f-left">
-        <h3>公司简介</h3>
-        <div class="clearFloat">
-            <div class="f-left">
-                <img src="/images/company.jpg" alt="公司简介">
-            </div>
-            <div class="f-left company-text">
-                <ul>
-                    <li>销售部：188-8888-8888</li>
-                    <li>技术部：188-8888-8888</li>
-                    <li>地&nbsp;&nbsp;&nbsp;址：河南省洛阳市经济技术开发区</li>
-                    <li>邮&nbsp;&nbsp;&nbsp;箱：123456789@qq.com</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="company-honor f-right" ng-controller="honorCarouselCtrl">
-        <h3>资质荣誉</h3>
-        <a class="arrow-left" href="#"> < </a>
-        <a class="arrow-right" href="#"> > </a>
-        <div class="swiper-container honorCarousel">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" on-finish-render-filters ng-repeat="item in data">
-                    <a ng-href="{{item.url}}">
-                        <p>
-                            <img ng-src="{{item.content}}" alt="">
-                        </p>
-                        <p class="title">{{item.title}}</p>
-                    </a>
-
+<div style="background: #f9f9f9;padding:20px 0">
+    <div class="m-wrap m-20 clearFloat">
+        <div class="line"></div>
+        <div class="company-intro f-left">
+            <h3>公司简介</h3>
+            <div class="clearFloat">
+                <div class="f-left">
+                    <img src="/images/company.jpg" alt="公司简介">
+                </div>
+                <div class="f-left company-text">
+                    <ul>
+                        <li>销售部：188-8888-8888</li>
+                        <li>技术部：188-8888-8888</li>
+                        <li>地&nbsp;&nbsp;&nbsp;址：河南省洛阳市经济技术开发区</li>
+                        <li>邮&nbsp;&nbsp;&nbsp;箱：123456789@qq.com</li>
+                    </ul>
                 </div>
             </div>
-
         </div>
-    </div>
 
+        <div class="company-honor f-right" ng-controller="honorCarouselCtrl">
+            <h3>资质荣誉</h3>
+            <a class="arrow-left" href="#"> < </a>
+            <a class="arrow-right" href="#"> > </a>
+            <div class="swiper-container honorCarousel">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" on-finish-render-filters ng-repeat="item in data">
+                        <a ng-href="{{item.url}}">
+                            <p>
+                                <img ng-src="{{item.content}}" alt="">
+                            </p>
+                            <p class="title">{{item.title}}</p>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
 </div>
+
+
 
 <!--工程案例-->
 <div class="m-wrap m-20 clearFloat">
 
     <div class="project" ng-controller="projectCarouselCtrl">
-        <h3>工程案例</h3>
+        <h3 class="column-header">工程案例 <span>Engineering Project</span></h3>
+        <div class="line"></div>
         <div class="swiper-container projectCarousel">
             <div class="swiper-wrapper">
                 <div class="swiper-slide" on-finish-render-filters ng-repeat="item in data">
@@ -150,33 +173,41 @@
 </div>
 
 <!--公司新闻-->
-<div class="m-wrap m-20 news-wrap clearFloat">
-    <div class="line"></div>
-    <div class="company-news news f-left" ng-controller="mainCompanyNewsCtrl">
-        <h4>公司新闻</h4>
-        <ul>
-            <li ng-repeat="item in data">
-                <a href="#/news/company/detail/{{item.id}}"> > <span class="title">{{item.title}}</span> <span class="pubdate">{{item.timerecorded}}</span> </a>
-            </li>
 
-        </ul>
-    </div>
-    <div class="trade-news news f-left" ng-controller="mainTradeNewsCtrl">
-        <h4>行业动态</h4>
-        <ul>
-            <li ng-repeat="item in data">
-                <a href="#/news/trade/detail/{{item.id}}"> > <span class="title">{{item.title}}</span> <span class="pubdate">{{item.timerecorded}}</span> </a>
-            </li>
-        </ul>
-    </div>
-    <div class="services news f-left" ng-controller="mainServiceNewsCtrl">
-        <h4>技术服务</h4>
-        <ul>
-            <li ng-repeat="item in data">
-                <a href="#/news/service/detail/{{item.id}}"> > <span class="title">{{item.title}}</span> <span class="pubdate">{{item.timerecorded}}</span> </a>
-            </li>
-        </ul>
-    </div>
+<div style="background: #f9f9f9;padding:20px 0 80px;">
+    <div class="m-wrap m-20 news-wrap clearFloat">
+        <h3 class="column-header">新闻资讯 <span>News Information</span></h3>
+        <div class="line"></div>
+        <div class="company-news news f-left" ng-controller="mainCompanyNewsCtrl">
+            <h4>公司新闻</h4>
+            <ul>
+                <li ng-repeat="item in data">
+                    <a href="#/news/company/detail/{{item.id}}"> > <span class="title">{{item.title}}</span> <span
+                            class="pubdate">{{item.timerecorded}}</span> </a>
+                </li>
 
+            </ul>
+        </div>
+        <div class="trade-news news f-left" ng-controller="mainTradeNewsCtrl">
+            <h4>行业动态</h4>
+            <ul>
+                <li ng-repeat="item in data">
+                    <a href="#/news/trade/detail/{{item.id}}"> > <span class="title">{{item.title}}</span> <span
+                            class="pubdate">{{item.timerecorded}}</span> </a>
+                </li>
+            </ul>
+        </div>
+        <div class="services news f-left" ng-controller="mainServiceNewsCtrl">
+            <h4>技术服务</h4>
+            <ul>
+                <li ng-repeat="item in data">
+                    <a href="#/news/service/detail/{{item.id}}"> > <span class="title">{{item.title}}</span> <span
+                            class="pubdate">{{item.timerecorded}}</span> </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
 </div>
+
 
