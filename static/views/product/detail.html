@@ -1,12 +1,12 @@
-<div class="banner-img service"></div>
+<div class="banner-img"></div>
 
 <div class="container m-wrap m-20 clearFloat">
     <div class="left-sidebar">
         <ul>
-            <li class="sidebar-head">售后服务</li>
-            <li class="sidebar-item " ng-class="{'active':urlType === 'recruitment'}"><a href="#/service/recruitment">人才招聘</a></li>
-            <li class="sidebar-item " ng-class="{'active':urlType === 'contact'}"><a href="#/service/contact">联系我们</a></li>
-            <li class="sidebar-item " ng-class="{'active':urlType=== 'technology'}"><a href="#/service/technology">技术服务</a></li>
+            <li class="sidebar-head">关于我们</li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'company'}"><a href="#/news/company">公司新闻</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'trade'}"><a href="#/news/trade">行业资讯</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType=== 'service'}"><a href="#/news/service">技术服务</a></li>
 
         </ul>
         <div class="sidebar-contact">
@@ -24,6 +24,8 @@
             <span>{{data.channelName}}</span>
         </div>
         <div class="content">
+            <h4>{{data.title}}</h4>
+            <p class="pubdata">{{data.timerecorded}}</p>
             <div class="text" ng-bind-html="content"></div>
         </div>
     </div>

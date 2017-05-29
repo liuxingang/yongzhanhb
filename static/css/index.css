@@ -251,6 +251,8 @@ nav {
 
 .productCarousel .swiper-slide .title, .productCarousel2 .swiper-slide .title {
     font-size: 14px;
+    background: #3d85da;
+    color:#fff;
 }
 
 .product-show .pannel-head h3 {
@@ -378,7 +380,16 @@ nav {
     padding: 10px;
     background: #fff;
 }
+.projectCarousel .swiper-slide {
+    background: #f9f9f9;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.projectCarousel .swiper-slide .title {
+    background: #3d85da;
+    color:#fff;
 
+}
 .projectCarousel .swiper-slide img {
     width: 80%;
 }
@@ -633,6 +644,11 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
+}
+.banner-img.service {
+
+    background-image: url("/images/join_banner.jpg");
+
 }
 
 .news-wrap .right-wrap .content .item {

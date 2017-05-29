@@ -1,0 +1,37 @@
+<div class="banner-img">
+    <!--<img src="http://www.lysmhb.com/imageRepository/194234c3-5fc8-4b09-add7-8d09c4483b8e.jpg" alt="" width="100%">-->
+</div>
+
+<div class="news-wrap m-wrap m-20 clearFloat">
+    <div class="left-sidebar">
+        <ul>
+            <li class="sidebar-head">关于我们</li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'company'}"><a href="#/news/company">公司新闻</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'trade'}"><a href="#/news/trade">行业资讯</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType=== 'service'}"><a href="#/news/service">技术服务</a></li>
+
+        </ul>
+        <div class="sidebar-contact">
+            <div class="title">联系我们</div>
+            <div class="content">
+                <img src="/images/lxwm.jpg" width="230" height="80">
+                <p>电话：188-8888-8888</p>
+                <p>邮箱：12345678@qq.com</p>
+                <p>地址：洛阳市洛龙区龙门大道与聂潘路交叉口西200米</p>
+            </div>
+        </div>
+    </div>
+    <div class="right-wrap">
+        <div class="title">
+            <span>{{data[0].channelName}}</span>
+        </div>
+        <div class="content">
+            <div ng-repeat="item in data" class="item clearFloat">
+                <ul>
+                    <li class="f-left"><a href="#/news/{{urlType}}/detail/{{item.id}}">{{item.title}}</a></li>
+                    <li class="f-right"><span>{{item.timerecorded}}</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
