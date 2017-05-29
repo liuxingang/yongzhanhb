@@ -19,15 +19,9 @@ var routeApp = angular.module('routeApp',['ngRoute','ngSanitize']);
             .when('/service/contact',{templateUrl:'views/service/detail.html',controller:'contactCtrl'})
             .when('/service/recruitment',{templateUrl:'views/service/detail.html',controller:'recruitmentCtrl'})
             .when('/service/technology',{templateUrl:'views/service/detail.html',controller:'technologyCtrl'})
+            .when('/product/wasteWater',{templateUrl:'views/product/list.html',controller:'wasteWaterCtrl'})
+            .when('/product/wasteWater/detail/:id',{templateUrl:'views/product/detail.html',controller:'wasteWaterDetailCtrl'})
 
-            .when('/product1/details',{templateUrl:'views/details1.html',controller:'details1Ctrl'})
-            .when('/product2/details',{templateUrl:'views/details2.html',controller:'details1Ctrl'})
-            .when('/product3/details',{templateUrl:'views/details3.html',controller:'details1Ctrl'})
-            .when('/product1/buy:productId',{templateUrl:'views/buy1.html',controller:'buyCtrl'})
-            .when('/product2/buy:productId',{templateUrl:'views/buy2.html',controller:'buyCtrl'})
-            .when('/product3/buy:productId',{templateUrl:'views/buy3.html',controller:'buyCtrl'})
-            .when('/product/pay',{templateUrl:'views/pay.html',controller:'payCtrl'})
-            .when('/product/topay',{templateUrl:'views/topay.html',controller:'topayCtrl'})
-            .when('/about',{templateUrl:'views/about.html'})
+
             .otherwise({redirectTo:'/'});
     }]);

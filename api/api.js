@@ -14,6 +14,7 @@ var tradeNews = data.tradeNews;
 var serviceNews = data.serviceNews;
 var aboutUs = data.aboutUs;
 var service = data.service;
+var products = data.products;
 
 
 
@@ -126,6 +127,14 @@ router.get('/api/v1/service/technology',function(req,res){
 
     res.send({
         data: service.technology
+    });
+
+});
+
+//废水处理
+router.get('/api/v1/products/wasteWater',function(req,res){
+    res.send({
+        data: products.wasteWater
     });
 
 });

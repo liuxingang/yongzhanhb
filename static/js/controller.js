@@ -326,4 +326,32 @@ routeApp.controller('technologyCtrl', function($scope,$routeParams, $http, $sce)
 
 
 
+//废水处理列表页
+routeApp.controller('wasteWaterCtrl', function($scope,$routeParams, $http) {
+    $scope.urlType = "wasteWater";
+    $http.get(ip + "/api/v1/products/wasteWater")
+        .success(function (data) {
+            console.log(data)
+            $scope.data = data.data;
+        });
+
+});
+//废水处理详情页
+routeApp.controller('wasteWaterDetailCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "wasteWater";
+    var id = $routeParams.id;
+    $http.get(ip + "/api/v1/products/wasteWater")
+        .success(function (data) {
+            for(var i= 0;i<data.data.length;i++){
+                if(data.data[i].id == id){
+                    $scope.data = data.data[i];
+                    $scope.content = $sce.trustAsHtml(data.data[i].content)
+                }
+            }
+        });
+
+});
+
+
+
 

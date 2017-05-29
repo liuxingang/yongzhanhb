@@ -3,10 +3,10 @@
 <div class="container m-wrap m-20 clearFloat">
     <div class="left-sidebar">
         <ul>
-            <li class="sidebar-head">关于我们</li>
-            <li class="sidebar-item " ng-class="{'active':urlType === 'company'}"><a href="#/news/company">公司新闻</a></li>
-            <li class="sidebar-item " ng-class="{'active':urlType === 'trade'}"><a href="#/news/trade">行业资讯</a></li>
-            <li class="sidebar-item " ng-class="{'active':urlType=== 'service'}"><a href="#/news/service">技术服务</a></li>
+            <li class="sidebar-head">业务领域</li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'wasteWater'}"><a href="#/product/wasteWater">废水处理</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'trade'}"><a href="#/news/trade">烟气处理</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType=== 'service'}"><a href="#/news/service">设备制造</a></li>
 
         </ul>
         <div class="sidebar-contact">
@@ -19,14 +19,28 @@
             </div>
         </div>
     </div>
-    <div class="right-wrap new-detail">
+    <div class="right-wrap product-detail-wrap">
         <div class="title">
             <span>{{data.channelName}}</span>
         </div>
         <div class="content">
-            <h4>{{data.title}}</h4>
-            <p class="pubdata">{{data.timerecorded}}</p>
-            <div class="text" ng-bind-html="content"></div>
+            <div class="head clearFloat">
+                <div class="img f-left">
+                    <img ng-src="{{data.img}}" alt="">
+                </div>
+                <div class=" f-right">
+                    <h2>{{data.title}}</h2>
+                    <p class="p1">环保局推荐优秀企业品牌</p>
+                    <p class="p2">库存状况：现货 按合同发货</p>
+                    <p class="p3">市场价格：电议</p>
+                    <p class="p4">联系电话：188-8888-8888</p>
+                </div>
+            </div>
+            <div class="main">
+                <h3>详细介绍 <span>PRODUCT DETAILS</span></h3>
+                <div class="text" ng-bind-html="content"></div>
+            </div>
+
         </div>
     </div>
 </div>
