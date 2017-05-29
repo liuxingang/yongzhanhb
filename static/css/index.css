@@ -481,7 +481,7 @@ nav {
 }
 
 .left-sidebar li.sidebar-item:hover {
-    background: #015db2;
+    background: #3886d7;
     transition: all 1s;
     padding-right: 20px;
 }
@@ -492,7 +492,7 @@ nav {
 }
 
 .left-sidebar li.active {
-    border-left: 3px solid #015db2;
+    border-left: 3px solid #3886d7;
 
 }
 
@@ -503,12 +503,12 @@ nav {
 }
 
 .left-sidebar li.active a {
-    color: #015db2;
+    color: #3886d7;
 
 }
 
 .left-sidebar li.active:hover a {
-    color: #015db2;
+    color: #3886d7;
 
 }
 
@@ -520,8 +520,9 @@ nav {
     color: #fff;
     text-align: center;
     font-size: 26px;
-    background: url("/images/second_nav_head.png");
+    /*background: url("/images/second_nav_head.png");*/
     border-bottom: none;
+    background: #3886d7;
 }
 
 .left-sidebar li a {
@@ -530,6 +531,28 @@ nav {
     width: 100%;
     padding: 16px 0;
 
+}
+
+.left-sidebar .sidebar-contact{
+    width: 270px;
+    height: 255px;
+    margin-top: 30px;
+    background-color: #FFF;
+    padding: 20px 20px 0px;
+    background-image: url(/images/left_bottom_bg.jpg);
+    background-repeat: no-repeat;
+    border-top: 2px solid #3886d7;
+}
+.left-sidebar .sidebar-contact .title{
+    width: 230px;
+    height: 29px;
+    line-height: 29px;
+    padding-left: 10px;
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 15px;
+}
+.left-sidebar .sidebar-contact .content p{
+    margin-top: 10px;
 }
 
 .right-wrap {

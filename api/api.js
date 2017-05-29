@@ -13,6 +13,7 @@ var companyNews = data.companyNews;
 var tradeNews = data.tradeNews;
 var serviceNews = data.serviceNews;
 var aboutUs = data.aboutUs;
+var service = data.service;
 
 
 
@@ -100,6 +101,31 @@ router.get('/api/v1/about/companyOrganization',function(req,res){
 
     res.send({
         data: aboutUs.companyOrganization
+    });
+
+});
+
+//联系我们
+router.get('/api/v1/service/contact',function(req,res){
+
+    res.send({
+        data: service.contact
+    });
+
+});
+//人才招聘
+router.get('/api/v1/service/recruitment',function(req,res){
+
+    res.send({
+        data: service.recruitment
+    });
+
+});
+//技术服务
+router.get('/api/v1/service/technology',function(req,res){
+
+    res.send({
+        data: service.technology
     });
 
 });

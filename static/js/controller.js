@@ -293,6 +293,37 @@ routeApp.controller('companyOrganizationCtrl', function($scope,$routeParams, $ht
 
 });
 
+//联系我们
+routeApp.controller('contactCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "contact";
+    $http.get(ip + "/api/v1/service/contact")
+        .success(function (data) {
+            $scope.data = data.data;
+            $scope.content = $sce.trustAsHtml(data.data.content)
+        });
+
+});
+//人才招聘
+routeApp.controller('recruitmentCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "recruitment";
+    $http.get(ip + "/api/v1/service/recruitment")
+        .success(function (data) {
+            $scope.data = data.data;
+            $scope.content = $sce.trustAsHtml(data.data.content)
+        });
+
+});
+//技术服务
+routeApp.controller('technologyCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "technology";
+    $http.get(ip + "/api/v1/service/technology")
+        .success(function (data) {
+            $scope.data = data.data;
+            $scope.content = $sce.trustAsHtml(data.data.content)
+        });
+
+});
+
 
 
 
