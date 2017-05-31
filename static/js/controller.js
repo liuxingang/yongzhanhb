@@ -63,6 +63,20 @@ routeApp.controller('productCarouselCtrl', function($scope,$routeParams, $http) 
         });
     });
 
+
+    $http.get(ip + "/api/v1/products/wasteWater")
+        .success(function (data) {
+            $scope.data = data.data;
+        });
+
+
+
+});
+//首页产品展示2轮播图
+routeApp.controller('productCarousel2Ctrl', function($scope,$routeParams, $http) {
+
+
+
     $scope.$on('ngRepeatFinished', function (ngRepeatFinishedEvent) {
         var swiper = new Swiper('.productCarousel2', {
             autoplay: 3000,
@@ -75,7 +89,7 @@ routeApp.controller('productCarouselCtrl', function($scope,$routeParams, $http) 
         });
     });
 
-    $http.get(ip + "/api/v1/index/products")
+    $http.get(ip + "/api/v1/products/smoke")
         .success(function (data) {
             $scope.data = data.data;
         });
@@ -331,7 +345,6 @@ routeApp.controller('wasteWaterCtrl', function($scope,$routeParams, $http) {
     $scope.urlType = "wasteWater";
     $http.get(ip + "/api/v1/products/wasteWater")
         .success(function (data) {
-            console.log(data)
             $scope.data = data.data;
         });
 
@@ -341,6 +354,31 @@ routeApp.controller('wasteWaterDetailCtrl', function($scope,$routeParams, $http,
     $scope.urlType = "wasteWater";
     var id = $routeParams.id;
     $http.get(ip + "/api/v1/products/wasteWater")
+        .success(function (data) {
+            for(var i= 0;i<data.data.length;i++){
+                if(data.data[i].id == id){
+                    $scope.data = data.data[i];
+                    $scope.content = $sce.trustAsHtml(data.data[i].content)
+                }
+            }
+        });
+
+});
+
+//烟气处理列表页
+routeApp.controller('smokeCtrl', function($scope,$routeParams, $http) {
+    $scope.urlType = "smoke";
+    $http.get(ip + "/api/v1/products/smoke")
+        .success(function (data) {
+            $scope.data = data.data;
+        });
+
+});
+//烟气处理详情页
+routeApp.controller('smokeDetailCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "smoke";
+    var id = $routeParams.id;
+    $http.get(ip + "/api/v1/products/smoke")
         .success(function (data) {
             for(var i= 0;i<data.data.length;i++){
                 if(data.data[i].id == id){

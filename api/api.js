@@ -139,6 +139,14 @@ router.get('/api/v1/products/wasteWater',function(req,res){
 
 });
 
+//烟气处理
+router.get('/api/v1/products/smoke',function(req,res){
+    res.send({
+        data: products.smoke
+    });
+
+});
+
 
 
 

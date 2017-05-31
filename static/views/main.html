@@ -64,20 +64,21 @@
             <h3>
                 产品展示
                 <span class="more">
-                        <a href="/news/companyNews">更多>></a>
+                        <a href="#/product/wasteWater">更多>></a>
                     </span>
             </h3>
 
         </div>
         <div class="pannel-body">
-            <div class="swiper-container productCarousel">
+            <div class="swiper-container productCarousel" ng-controller="productCarouselCtrl">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" on-finish-render-filters ng-repeat="item in data">
-                        <a ng-href="{{item.url}}">
+                    <div class="swiper-slide item" on-finish-render-filters ng-repeat="item in data">
+                        <a ng-href="#/product/wasteWater/detail/{{item.id}}">
                             <p class="img">
-                                <img ng-src="{{item.content}}" alt="">
+                                <img ng-src="{{item.img}}" alt="">
                             </p>
                             <p class="title">{{item.title}}</p>
+                            <div class="intro-bg">{{item.intro}}</div>
                         </a>
 
                     </div>
@@ -85,14 +86,15 @@
 
             </div>
 
-            <div class="swiper-container productCarousel2">
+            <div class="swiper-container productCarousel2" ng-controller="productCarousel2Ctrl">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" on-finish-render-filters ng-repeat="item in data">
-                        <a ng-href="{{item.url}}">
+                    <div class="swiper-slide item" on-finish-render-filters ng-repeat="item in data">
+                        <a ng-href="#/product/smoke/detail/{{item.id}}">
                             <p>
-                                <img ng-src="{{item.content}}" alt="">
+                                <img ng-src="{{item.img}}" alt="">
                             </p>
                             <p class="title">{{item.title}}</p>
+                            <div class="intro-bg">{{item.intro}}</div>
                         </a>
 
                     </div>
