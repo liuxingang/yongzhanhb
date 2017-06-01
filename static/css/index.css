@@ -9,9 +9,10 @@ html, body {
     min-width: 1200px;
 }
 
-header {
-
+header .header{
+    background: url("/images/top_bg.jpg") no-repeat;
 }
+
 
 ul {
     list-style: none;
@@ -116,7 +117,7 @@ nav {
 
 /*swiper*/
 .swiper-container {
-    height: 500px;
+    height: 480px;
     background: #f9f9f9;
 }
 
