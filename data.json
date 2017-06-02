@@ -15,7 +15,7 @@
     {
       "id": "973fe257251d4fb585abc706ba41ba5e",
       "author": "system",
-      "content": "http://www.lysmhb.com/imageRepository/194234c3-5fc8-4b09-add7-8d09c4483b8e.jpg",
+      "content": "/images/carousel/2.jpeg",
       "newsid": null,
       "pubdate": "12-13",
       "timerecorded": "2016-12-13 11:45:26",
@@ -27,7 +27,31 @@
     {
       "id": "973fe257251d4fb585abc706ba41ba5e",
       "author": "system",
-      "content": "http://www.lysmhb.com/imageRepository/cc9a44cc-c000-4d96-b7cf-c11a728c8973.jpg",
+      "content": "/images/carousel/3.jpeg",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13 11:45:26",
+      "title": "banner1",
+      "url": "http://www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    },
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "/images/carousel/4.jpeg",
+      "newsid": null,
+      "pubdate": "12-13",
+      "timerecorded": "2016-12-13 11:45:26",
+      "title": "banner1",
+      "url": "http://www.baidu.com",
+      "channelId": "e4b675ad0bb146adb07865a9534c214b",
+      "channelName": "首页大图"
+    },
+    {
+      "id": "973fe257251d4fb585abc706ba41ba5e",
+      "author": "system",
+      "content": "/images/carousel/5.jpeg",
       "newsid": null,
       "pubdate": "12-13",
       "timerecorded": "2016-12-13 11:45:26",
