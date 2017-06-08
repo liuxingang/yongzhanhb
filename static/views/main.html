@@ -2,7 +2,7 @@
 <div class="swiper-container swiper-banner" id="swiper" ng-controller="carouselCtrl">
     <div class="swiper-wrapper ">
         <div class="swiper-slide" on-finish-render-filters ng-repeat="item in data">
-            <a href="#/" >
+            <a href="#/">
                 <div style="background-image: url({{item.content}});background-size: auto 480px;background-repeat: no-repeat;background-position: center;width: 100%;height: 480px;"></div>
             </a>
         </div>
@@ -22,9 +22,10 @@
         <div id="search_right">
             <form action="#">
                 <input type="hidden" name="s" value="7738050836510114634">
-                <span id="submit"><input type="submit" value=""  style="cursor:hand;"></span>
+                <span id="submit"><input type="submit" value="" style="cursor:hand;"></span>
 
-                <input id="search" name="q" style="outline:medium;" value="请输入关键词" type="text" onfocus="if(this.value=='请输入关键词')this.value='';" onblur="if(this.value=='') this.value='';">
+                <input id="search" name="q" style="outline:medium;" value="请输入关键词" type="text"
+                       onfocus="if(this.value=='请输入关键词')this.value='';" onblur="if(this.value=='') this.value='';">
             </form>
         </div>
     </div>
@@ -108,7 +109,7 @@
 <div style="background: #f9f9f9;padding:20px 0">
 
     <div class="m-wrap m-20 clearFloat company-wrap">
-        <h3 class="column-header">公司简介 <span>Company Profile</span></h3>
+        <h3 class="column-header">公司简介 <span>Company Profile</span><a href="#/about/intro">MORE+</a></h3>
         <div class="line"></div>
         <div class="company-intro f-left">
             <h3>公司简介</h3>
@@ -117,12 +118,17 @@
                     <img src="/images/company.jpg" alt="公司简介">
                 </div>
                 <div class="f-left company-text">
-                    <ul>
-                        <li>销售部：188-8888-8888</li>
-                        <li>技术部：188-8888-8888</li>
-                        <li>地&nbsp;&nbsp;&nbsp;址：河南省洛阳市经济技术开发区</li>
-                        <li>邮&nbsp;&nbsp;&nbsp;箱：123456789@qq.com</li>
-                    </ul>
+                    <p><a href="#/about/intro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;河南永湛环保科技有限公司是一家集销售、设计、施工、安装、调试、售后、运营为一体的环保工程公司。主要业务范围有以下方面：
+                        （一）工业污水及中水回用（零排放）、市政污水、村镇污水、电厂废水、化工废水、医药废水、印染废水、屠宰废水...</a>
+
+                    </p>
+                    <br>
+                    <p class="concact">销售部：<span>189-3950-1244</span>
+
+                    </p>
+                    <p class="concact">技术部：<span>189-3950-1244</span></p>
+                    <p class="concact">地&nbsp;&nbsp;&nbsp;址：洛阳市洛龙区863创智广场1号楼1113</p>
+                    <p class="concact">邮&nbsp;&nbsp;&nbsp;箱：382971184@qq.com</p>
                 </div>
             </div>
         </div>
@@ -151,12 +157,11 @@
 </div>
 
 
-
 <!--工程案例-->
 <div class="m-wrap m-20 clearFloat">
 
     <div class="project" ng-controller="projectCarouselCtrl">
-        <h3 class="column-header">工程案例 <span>Engineering Project</span></h3>
+        <h3 class="column-header">工程案例 <span>Engineering Project</span><a href="#/product/wasteWater">MORE+</a></h3>
         <div class="line"></div>
         <div class="swiper-container projectCarousel">
             <div class="swiper-wrapper">
@@ -180,7 +185,7 @@
 
 <div style="background: #f9f9f9;padding:20px 0 80px;">
     <div class="m-wrap m-20 news-wrap clearFloat">
-        <h3 class="column-header">新闻资讯 <span>News Information</span></h3>
+        <h3 class="column-header">新闻资讯 <span>News Information</span><a href="#/news/company">MORE+</a></h3>
         <div class="line"></div>
         <div class="company-news news f-left" ng-controller="mainCompanyNewsCtrl">
             <h4>公司新闻</h4>

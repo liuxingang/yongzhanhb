@@ -340,19 +340,34 @@ nav {
 
 .company-intro {
     padding: 10px;
+    width: 62%;
 }
 
 .company-intro h3 {
     padding: 10px 10px 10px 120px;
 
 }
+.company-intro .f-left {
+    width: 50%;
 
-.company-intro .company-text ul {
-    padding: 10px;
 }
 
-.company-intro .company-text ul li {
-    padding: 16px;
+.company-intro .company-text p {
+    font-size: 16px;
+}
+.company-intro .company-text p.concact {
+    line-height: 28px;
+}
+
+.company-intro .company-text p span{
+    line-height: 22px;
+    color:#3d85da;
+}
+.company-intro .company-text p a{
+    font-size: 14px;
+}
+.company-intro .company-text p a:hover{
+    text-decoration: underline;
 }
 
 /*首页资质荣誉*/
@@ -390,13 +405,13 @@ nav {
 
 .honorCarousel {
     width: 400px;
-    height: 260px;
+    height: 240px;
     padding: 10px;
 }
 
 .honorCarousel .swiper-slide img {
     width: 50%;
-    height: 220px;
+    height: 200px;
 }
 
 /*工程案例*/
@@ -439,6 +454,14 @@ nav {
     font-size: 18px;
     padding: 4px;
     color: grey;
+}
+
+.column-header a {
+    font-size: 14px;
+    float: right;
+}
+.column-header a:hover {
+    color:#0b6ac1;
 }
 
 .news-wrap {
