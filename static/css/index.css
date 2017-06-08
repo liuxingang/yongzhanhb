@@ -340,7 +340,7 @@ nav {
 
 .company-intro {
     padding: 10px;
-    width: 62%;
+    width: 840px;
 }
 
 .company-intro h3 {
@@ -348,8 +348,11 @@ nav {
 
 }
 .company-intro .f-left {
-    width: 50%;
+    width: 44%;
 
+}
+.company-intro .company-text {
+    width: 56%;
 }
 
 .company-intro .company-text p {
@@ -385,6 +388,7 @@ nav {
     font-size: 30px;
     z-index: 9999;
     color: #015db2;
+    display: none;
 }
 
 .company-honor .arrow-right {
@@ -396,17 +400,20 @@ nav {
     font-size: 30px;
     z-index: 9999;
     color: #015db2;
+    display: none;
 }
 
 .company-honor h3 {
     padding: 10px;
+    text-align: center;
 
 }
 
 .honorCarousel {
-    width: 400px;
+    width: 300px;
     height: 240px;
     padding: 10px;
+    background: #fff;
 }
 
 .honorCarousel .swiper-slide img {
