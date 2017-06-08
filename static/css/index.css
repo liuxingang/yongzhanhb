@@ -444,7 +444,7 @@ nav {
 .news-wrap {
     background: #fff;
     padding: 18px;
-    margin-bottom: 80px;
+    /*margin-bottom: 80px;*/
 }
 
 .news-wrap .news {
@@ -684,6 +684,9 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
+}
+.banner-img.about {
+    background-image: url("/images/about_banner.jpg");
 }
 
 .banner-img.service {

@@ -105,6 +105,14 @@ router.get('/api/v1/about/companyOrganization',function(req,res){
     });
 
 });
+//经营范围
+router.get('/api/v1/about/companyBusiness',function(req,res){
+
+    res.send({
+        data: aboutUs.companyBusiness
+    });
+
+});
 
 //联系我们
 router.get('/api/v1/service/contact',function(req,res){

@@ -1,0 +1,82 @@
+<style>
+    .right-wrap .content .item{
+        position: relative;
+        padding-left:120px;
+        margin-bottom: 30px;
+    }
+    .right-wrap .content .item .title{
+        border:none;
+    }
+    .right-wrap .content .item .img-wrap{
+        position: absolute;
+        top:0;
+        left:0;
+    }
+    .right-wrap .content .item .img-wrap img{
+        width:100px;
+    }
+</style>
+
+<div class="banner-img about"></div>
+
+<div class="container m-wrap m-20 clearFloat" style="padding-bottom:100px;">
+    <div class="left-sidebar">
+        <ul>
+            <li class="sidebar-head">关于永湛</li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'intro'}"><a href="#/about/intro">公司简介</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'culture'}"><a href="#/about/culture">企业文化</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType=== 'business'}"><a href="#/about/business">经营范围</a></li>
+
+        </ul>
+        <div class="sidebar-contact">
+            <div class="title">联系我们</div>
+            <div class="content">
+                <img src="/images/lxwm.jpg" width="230" height="80">
+                <p>电话：189-3950-1244</p>
+                <p>邮箱：382971184@qq.com</p>
+                <p>地址：洛阳市洛龙区863创智广场1号楼1113</p>
+            </div>
+        </div>
+    </div>
+    <div class="right-wrap new-detail">
+        <div class="title">
+            <span>{{data.channelName}}</span>
+        </div>
+        <div class="content" style="line-height: 28px;">
+            <div class="text">
+                <div class="item">
+                    <h3 class="title">工业废水及市政污水</h3>
+                    <p>本公司主要经营范围为：工业污水及中水回用（零排放）、市政污水、村镇污水、电厂废水、化工废水、医药废水、印染废水、屠宰废水、食品废水、冶金废水、垃圾渗滤液、人工湿地工程等；业务领域为：村镇、
+                        电力、化工、焦化、皮革、造纸、制药、印染、酒类、食品、市政等方面的污水处理的工程总承包。</p>
+                    <div class="img-wrap">
+                        <img src="/images/about/bussiness1.jpg" alt="">
+                    </div>
+                </div>
+                <br>
+                <div class="item">
+                    <h3 class="title">废气及除尘治理</h3>
+                    <p>燃煤电厂烟气、垃圾焚烧发电厂烟气脱硫脱硝工程、中小锅炉烟气脱硫脱硝除尘工程、除尘系统的改造工程总承包、油烟气净化、VOC工业废气治理工程总承包等。</p>
+                    <div class="img-wrap">
+                        <img src="/images/about/bussiness2.jpg" alt="">
+                    </div>
+                </div>
+                <br>
+                <div class="item">
+                    <h3 class="title">环保技术服务</h3>
+                    <p>环保工程的技术开发与咨询、环保工程的设计服务；在国内和国际市场为客户提供免费技术咨询、治理方案设计，治理工程设计及建设等高端服务。</p>
+                    <div class="img-wrap">
+                        <img src="/images/about/bussiness3.jpg" alt="">
+                    </div>
+                </div>
+                <br>
+                <div class="item">
+                    <h3 class="title">环保设备的制造及销售</h3>
+                    <p>一体化污水处理设备、除尘设备、废气处理装置、净水设备等环保产品的加工制造、销售。</p>
+                    <div class="img-wrap">
+                        <img src="/images/about/bussiness4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

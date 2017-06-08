@@ -306,6 +306,16 @@ routeApp.controller('companyOrganizationCtrl', function($scope,$routeParams, $ht
         });
 
 });
+//经营范围
+routeApp.controller('companyBusinessCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "business";
+    $http.get(ip + "/api/v1/about/companyBusiness")
+        .success(function (data) {
+            $scope.data = data.data;
+            $scope.content = $sce.trustAsHtml(data.data.content)
+        });
+
+});
 
 //联系我们
 routeApp.controller('contactCtrl', function($scope,$routeParams, $http, $sce) {
