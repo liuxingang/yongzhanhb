@@ -1,6 +1,17 @@
-<div class="banner-img about"></div>
+<style>
+    .right-wrap .content .item{
+        text-align: center;
 
-<div class="container m-wrap m-20 clearFloat">
+    }
+    .right-wrap .content .item img{
+        width: 70%;
+
+    }
+</style>
+
+<div class="banner-img honor"></div>
+
+<div class="container m-wrap m-20 clearFloat" style="padding-bottom:100px;">
     <div class="left-sidebar">
         <ul>
             <li class="sidebar-head">关于永湛</li>
@@ -22,10 +33,13 @@
     </div>
     <div class="right-wrap new-detail">
         <div class="title">
-            <span>{{data.channelName}}</span>
+            <span>{{data[0].channelName}}</span>
         </div>
         <div class="content" style="line-height: 28px;">
-            <div class="text" ng-bind-html="content"></div>
+            <div class="item" ng-repeat="item in data">
+                <img ng-src="{{item.content}}" alt="">
+                <p class="title">{{item.title}}</p>
+            </div>
         </div>
     </div>
 </div>

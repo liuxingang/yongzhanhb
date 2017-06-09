@@ -734,6 +734,11 @@ nav {
     background-image: url("/images/product/product_banner.jpg");
 
 }
+.banner-img.honor {
+
+    background-image: url("/images/honor/honor_banner.jpg");
+
+}
 
 .news-wrap .right-wrap .content .item {
     border-bottom: 1px dotted grey;

@@ -317,6 +317,17 @@ routeApp.controller('companyBusinessCtrl', function($scope,$routeParams, $http, 
 
 });
 
+//资质荣誉
+routeApp.controller('companyHonorCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "honor";
+    $http.get(ip + "/api/v1/index/honors")
+        .success(function (data) {
+            $scope.data = data.data;
+            $scope.content = $sce.trustAsHtml(data.data.content)
+        });
+
+});
+
 //联系我们
 routeApp.controller('contactCtrl', function($scope,$routeParams, $http, $sce) {
     $scope.urlType = "contact";

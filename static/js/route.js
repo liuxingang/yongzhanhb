@@ -17,6 +17,7 @@ var routeApp = angular.module('routeApp',['ngRoute','ngSanitize']);
             .when('/about/culture',{templateUrl:'views/about/detail.html',controller:'companyCultureCtrl'})
             .when('/about/organization',{templateUrl:'views/about/detail.html',controller:'companyOrganizationCtrl'})
             .when('/about/business',{templateUrl:'views/about/bussiness_detail.html',controller:'companyBusinessCtrl'})
+            .when('/about/honor',{templateUrl:'views/about/honor.html',controller:'companyHonorCtrl'})
             .when('/service/contact',{templateUrl:'views/service/detail.html',controller:'contactCtrl'})
             .when('/service/recruitment',{templateUrl:'views/service/detail.html',controller:'recruitmentCtrl'})
             .when('/service/technology',{templateUrl:'views/service/detail.html',controller:'technologyCtrl'})
