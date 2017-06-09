@@ -716,12 +716,22 @@ nav {
     width: 100%;
 }
 .banner-img.about {
-    background-image: url("/images/about_banner.jpg");
+    background-image: url("/images/about/about_banner.jpg");
 }
 
 .banner-img.service {
 
-    background-image: url("/images/join_banner.jpg");
+    background-image: url("/images/service/service_banner.jpg");
+
+}
+.banner-img.news {
+
+    background-image: url("/images/news/news_banner.jpg");
+
+}
+.banner-img.product {
+
+    background-image: url("/images/product/product_banner.jpg");
 
 }
 
