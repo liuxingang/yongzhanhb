@@ -411,6 +411,29 @@ routeApp.controller('smokeDetailCtrl', function($scope,$routeParams, $http, $sce
 
 });
 
+//噪声处理列表页
+routeApp.controller('noiseCtrl', function($scope,$routeParams, $http) {
+    $scope.urlType = "noise";
+    $http.get(ip + "/api/v1/products/noise")
+        .success(function (data) {
+            $scope.data = data.data;
+        });
 
+});
+//噪声处理详情页
+routeApp.controller('noiseDetailCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "noise";
+    var id = $routeParams.id;
+    $http.get(ip + "/api/v1/products/noise")
+        .success(function (data) {
+            for(var i= 0;i<data.data.length;i++){
+                if(data.data[i].id == id){
+                    $scope.data = data.data[i];
+                    $scope.content = $sce.trustAsHtml(data.data[i].content)
+                }
+            }
+        });
+
+});
 
 

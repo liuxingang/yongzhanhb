@@ -155,6 +155,13 @@ router.get('/api/v1/products/smoke',function(req,res){
 
 });
 
+//噪声处理
+router.get('/api/v1/products/noise',function(req,res){
+    res.send({
+        data: products.noise
+    });
+
+});
 
 
 
