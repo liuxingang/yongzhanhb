@@ -131,7 +131,7 @@ routeApp.controller('honorCarouselCtrl', function($scope,$routeParams, $http) {
 
 //首页工程案例轮播图
 routeApp.controller('projectCarouselCtrl', function($scope,$routeParams, $http) {
-
+    $scope.urlType = "equipment";
     //加载完成
     $scope.$on('ngRepeatFinished', function (ngRepeatFinishedEvent) {
         var projectSwiper = new Swiper('.projectCarousel', {
@@ -142,9 +142,9 @@ routeApp.controller('projectCarouselCtrl', function($scope,$routeParams, $http) 
     });
 
 
-    $http.get(ip + "/api/v1/index/products")
+    $http.get(ip + "/api/v1/products/equipment")
         .success(function (data) {
-            $scope.data = data.data;
+            $scope.data = data.data.slice(0,8);
         });
 
 

@@ -42,20 +42,21 @@
         <div class="pannel-body ">
             <ul>
                 <li>
-                    <a href="#/"><i> > </i> 环保咨询</a>
+                    <a href="#/service/technology"><i> > </i> 设计服务</a>
                 </li>
                 <li>
-                    <a href="#/"> <i> > </i>废水处理</a>
+                    <a href="#/product/wasteWater"> <i> > </i>废水处理</a>
                 </li>
                 <li>
-                    <a href="#/"><i> > </i>烟气处理</a>
+                    <a href="#/product/smoke"><i> > </i>烟气处理</a>
                 </li>
                 <li>
-                    <a href="#/"><i> > </i>设备制造</a>
+                    <a href="#/product/noise"><i> > </i>噪声处理</a>
                 </li>
                 <li>
-                    <a href="#/"><i> > </i>其它业务</a>
+                    <a href="#/product/equipment"><i> > </i>设备制造</a>
                 </li>
+
             </ul>
         </div>
     </div>
@@ -109,7 +110,9 @@
 <div style="background: #f9f9f9;padding:20px 0">
 
     <div class="m-wrap m-20 clearFloat company-wrap">
-        <h3 class="column-header">公司简介 <span>Company Profile</span></h3>
+        <h3 class="column-header">公司简介 <span>Company Profile</span> <span class="more">
+                        <a href="#/about/intro">更多>></a>
+                    </span></h3>
         <div class="line"></div>
         <div class="company-intro f-left">
             <h3>公司简介</h3>
@@ -160,14 +163,16 @@
 <div class="m-wrap m-20 clearFloat">
 
     <div class="project" ng-controller="projectCarouselCtrl">
-        <h3 class="column-header">工程案例 <span>Engineering Project</span></h3>
+        <h3 class="column-header">工程案例 <span>Engineering Project</span> <span class="more">
+                        <a href="#/product/equipment">更多>></a>
+                    </span></h3>
         <div class="line"></div>
         <div class="swiper-container projectCarousel">
             <div class="swiper-wrapper">
                 <div class="swiper-slide" on-finish-render-filters ng-repeat="item in data">
-                    <a ng-href="{{item.url}}">
+                    <a href="#/product/{{urlType}}/detail/{{item.id}}">
                         <p>
-                            <img ng-src="{{item.content}}" alt="">
+                            <img ng-src="{{item.img}}" alt="">
                         </p>
                         <p class="title">{{item.title}}</p>
                     </a>
