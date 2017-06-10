@@ -436,4 +436,29 @@ routeApp.controller('noiseDetailCtrl', function($scope,$routeParams, $http, $sce
 
 });
 
+//设备制造列表页
+routeApp.controller('equipmentCtrl', function($scope,$routeParams, $http) {
+    $scope.urlType = "equipment";
+    $http.get(ip + "/api/v1/products/equipment")
+        .success(function (data) {
+            $scope.data = data.data;
+        });
+
+});
+//设备制造详情页
+routeApp.controller('equipmentDetailCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "equipment";
+    var id = $routeParams.id;
+    $http.get(ip + "/api/v1/products/equipment")
+        .success(function (data) {
+            for(var i= 0;i<data.data.length;i++){
+                if(data.data[i].id == id){
+                    $scope.data = data.data[i];
+                    $scope.content = $sce.trustAsHtml(data.data[i].content)
+                }
+            }
+        });
+
+});
+
 

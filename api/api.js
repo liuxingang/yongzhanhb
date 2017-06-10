@@ -163,6 +163,14 @@ router.get('/api/v1/products/noise',function(req,res){
 
 });
 
+//设备制造
+router.get('/api/v1/products/equipment',function(req,res){
+    res.send({
+        data: products.equipment
+    });
+
+});
+
 
 
 

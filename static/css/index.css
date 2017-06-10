@@ -96,7 +96,7 @@ nav {
 
 .dropDown-wrap:hover .dropDown-menu {
 
-    max-height: 400%;
+    max-height: 500%;
     transition: all 1s;
 }
 
