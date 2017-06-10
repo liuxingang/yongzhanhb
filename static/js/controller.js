@@ -66,7 +66,7 @@ routeApp.controller('productCarouselCtrl', function($scope,$routeParams, $http) 
 
     $http.get(ip + "/api/v1/products/wasteWater")
         .success(function (data) {
-            $scope.data = data.data;
+            $scope.data = data.data.slice(0,6);
         });
 
 
