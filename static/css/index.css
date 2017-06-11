@@ -227,7 +227,7 @@ nav {
 }
 
 .productCarousel, .productCarousel2 {
-    height: 160px;
+    height: 200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -251,7 +251,7 @@ nav {
 
 .productCarousel .swiper-slide img, .productCarousel2 .swiper-slide img {
     width: 100%;
-    height: 120px;
+    height: 160px;
 }
 
 .productCarousel .swiper-slide .title, .productCarousel2 .swiper-slide .title {
@@ -328,7 +328,7 @@ nav {
     display: inline-block;
     width: 100%;
     color: #fff;
-    padding: 23px 8px;
+    padding: 31px 8px;
     box-sizing: border-box;
 }
 
