@@ -1,0 +1,100 @@
+<style>
+    .right-wrap .content .item{
+        position: relative;
+        padding-left:120px;
+        margin-bottom: 30px;
+        min-height: 84px;
+    }
+    .right-wrap .content .item .title{
+        border:none;
+    }
+    .right-wrap .content .item .img-wrap{
+        position: absolute;
+        top:0;
+        left:0;
+    }
+    .right-wrap .content .item .img-wrap img{
+        width:100px;
+    }
+</style>
+
+<div class="banner-img service"></div>
+
+<div class="container m-wrap m-20 clearFloat" style="padding-bottom:100px;">
+    <div class="left-sidebar">
+        <ul>
+            <li class="sidebar-head">售后服务</li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'designservice'}"><a href="#/product/designservice">设计服务</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'wasteWater'}"><a href="#/product/wasteWater">废水处理</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'smoke'}"><a href="#/product/smoke">烟气处理</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'noise'}"><a href="#/product/noise">噪声处理</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType=== 'equipment'}"><a href="#/product/equipment">设备制造</a></li>
+
+        </ul>
+        <div class="sidebar-contact">
+            <div class="title">联系我们</div>
+            <div class="content">
+                <img src="/images/lxwm.jpg" width="230" height="80">
+                <p>电话：189-3950-1244</p>
+                <p>邮箱：382971184@qq.com</p>
+                <p>地址：洛阳市洛龙区863创智广场1号楼1113</p>
+            </div>
+        </div>
+    </div>
+    <div class="right-wrap new-detail">
+        <div class="title">
+            <span>{{data.channelName}}</span>
+        </div>
+        <div class="content" style="line-height: 28px;">
+            <div class="text">
+                <div class="item">
+                    <h3 class="title">工业废水、高难度废水零排放设计</h3>
+                    <p>本公司针对工业废水处理、电力及煤化工废水零排放、脱盐水、中水回用、凝结水、垃圾渗滤液等会根据实地情况考察做出相关方案设计。</p>
+                    <div class="img-wrap">
+                        <img src="/images/service/technology1.png" alt="">
+                    </div>
+                </div>
+                <br>
+                <div class="item">
+                    <h3 class="title">厂况脱硫、脱硝及除尘治理设计</h3>
+                    <p>本公司在电厂烟气脱硫、脱硝除尘与多家设计院合作，积累了丰富的经验。可以长期提供相关设备制造设计、改造项目的设计。</p>
+                    <div class="img-wrap">
+                        <img src="/images/service/technology2.png" alt="">
+                    </div>
+                </div>
+                <br>
+                <div class="item">
+                    <h3 class="title">提供环境项目评价、技术方案</h3>
+                    <p>为客户提供一年免费上门技术服务，终身免费技术咨询，解决企业环保工程在运行中的各种难题。</p>
+                    <div class="img-wrap">
+                        <img src="/images/service/technology3.png" alt="">
+                    </div>
+                </div>
+                <br>
+                <div class="item">
+                    <h3 class="title">提供污水处理工程设计</h3>
+                    <p>为客户提供环保工程优质设计，确保环保工程的设计科学性、发展可行性、技术先进性、投资节约性、环保理想性、生产效益性。</p>
+                    <div class="img-wrap">
+                        <img src="/images/service/technology4.png" alt="">
+                    </div>
+                </div>
+                <br>
+                <div class="item">
+                    <h3 class="title">提供施工图设计</h3>
+                    <p>根据客户需要为客户提供污水处理、废气处理的环保方面的施工图设计，包含工艺图纸、结构图纸、电气图纸等。</p>
+                    <div class="img-wrap">
+                        <img src="/images/service/technology5.png" alt="">
+                    </div>
+                </div>
+                <br>
+                <div class="item">
+                    <h3 class="title">环保设备的设计</h3>
+                    <p>公司针对不同行业的特点，有针对性地研发出了高效气浮装置、加药装置、刮泥机、滗水器、静态管道混合器、一体化生活污水处理设备等，客户的需求就是我们的目标，我们全心全意为用户开发设计最适合的产品。</p>
+                    <div class="img-wrap">
+                        <img src="/images/service/technology6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

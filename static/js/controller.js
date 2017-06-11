@@ -361,6 +361,11 @@ routeApp.controller('technologyCtrl', function($scope,$routeParams, $http, $sce)
 
 
 
+//设计服务
+routeApp.controller('designserviceCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "designservice";
+});
+
 //废水处理列表页
 routeApp.controller('wasteWaterCtrl', function($scope,$routeParams, $http) {
     $scope.urlType = "wasteWater";
