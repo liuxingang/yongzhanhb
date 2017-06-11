@@ -89,44 +89,66 @@
       "channelName": "资质荣誉"
     }
   ],
-  "projects": [
-    {
-      "id": "973fe257251d4fb585abc706ba41ba5e",
-      "author": "system",
-      "content": "http://www.lysmhb.com/imageRepository/b6229a8e-7bc3-4f25-8321-ceceb8303f7a.gif",
-      "newsid": null,
-      "pubdate": "12-13",
-      "timerecorded": "2016-12-13 11:45:26",
-      "title": "废水处理",
-      "url": "http://www.baidu.com",
-      "channelId": "e4b675ad0bb146adb07865a9534c214b",
-      "channelName": "首页大图"
-    },
-    {
-      "id": "973fe257251d4fb585abc706ba41ba5e",
-      "author": "system",
-      "content": "http://www.lysmhb.com/imageRepository/b6229a8e-7bc3-4f25-8321-ceceb8303f7a.gif",
-      "newsid": null,
-      "pubdate": "12-13",
-      "timerecorded": "2016-12-13 11:45:26",
-      "title": "废水处理2",
-      "url": "www.baidu.com",
-      "channelId": "e4b675ad0bb146adb07865a9534c214b",
-      "channelName": "首页大图"
-    },
-    {
-      "id": "973fe257251d4fb585abc706ba41ba5e",
-      "author": "system",
-      "content": "http://www.lysmhb.com/imageRepository/b6229a8e-7bc3-4f25-8321-ceceb8303f7a.gif",
-      "newsid": null,
-      "pubdate": "12-13",
-      "timerecorded": "2016-12-13 11:45:26",
-      "title": "废水处理3",
-      "url": "http://www.baidu.com",
-      "channelId": "e4b675ad0bb146adb07865a9534c214b",
-      "channelName": "首页大图"
-    }
-  ],
+  "projects":{
+    "case":[
+      {
+        "id": "1",
+        "author": "system",
+        "content": "<p style='text-indent:32px;line-height:150%'><strong><span style='font-size:16px;line-height:150%;font-family: 宋体'>项目介绍</span></strong></p><p style='text-indent:32px;line-height:150%'><span style='font-size:16px;line-height:150%;font-family: 宋体'>河南永锦能源有限公司云盖山一矿位于河南省许昌市禹州市磨街乡，年产</span><span style='font-size:16px;line-height:150%'>200</span><span style='font-size:16px;line-height:150%;font-family:宋体'>万吨，该矿生活污水处理设施在建矿初期到至今由于处理水量已经不能满足现在的需要，所以委托我们公司负责设计改造。出水水质处理后达到《城镇污水处理厂污染物排放标准》（</span><span style='font-size:16px;line-height:150%'>GB18918-2002</span><span style='font-size:16px;line-height:150%;font-family:宋体'>）一级</span><span style='font-size:16px;line-height:150%'>A</span><span style='font-size:16px;line-height:150%;font-family:宋体'>标准。</span></p><p style='text-indent:32px;line-height:150%'><span style='font-size:16px;line-height:150%;font-family: 宋体'>处理工艺采用</span><span style='font-size:16px;line-height:150%;font-family:宋体'>“</span><span style='font-size:16px;line-height:150%'>AO+</span><span style='font-size: 16px;line-height:150%;font-family:宋体'>过滤</span><span style='font-size:16px;line-height:150%'>+</span><span style='font-size:16px;line-height:150%;font-family:宋体'>消毒”</span></p><p style='text-indent:32px;line-height:150%'><strong><span style='font-size:16px;line-height:150%;font-family: 宋体'>现场照片</span></strong></p><p style='text-indent:32px;line-height:150%'><strong><span style='font-size:16px;line-height:150%;font-family: 宋体'><br/></span></strong></p><p style='text-align:center'><strong><span style='font-size:16px'><img width='500' height='375' src='/images/case/1-1.png' alt='矿井水污水处理工程' title='矿井水污水处理工程'/></span></strong></p><p><br/></p>",
+        "newsid": null,
+        "pubdate": "12-13",
+        "timerecorded": "2016-12-13 11:45:26",
+        "title": "河南省农村环境连片整治项目兰考县2015年张君墓镇农村环境连骗整治项目",
+        "intro": "河南省农村环境连片整治项目兰考县2015年张君墓镇农村环境连骗整治项目",
+        "img": "/images/case/1.png",
+        "url": "",
+        "channelId": "e4b675ad0bb146adb07865a9534c214b",
+        "channelName": "工程案例"
+      },
+      {
+        "id": "2",
+        "author": "system",
+        "content": "<p style='text-indent:32px;line-height:150%'><strong><span style='font-size:16px;line-height:150%;font-family: 宋体'></span></strong></p><p style='text-indent:32px;line-height:150%'><strong><span style='font-size:16px;line-height:150%;font-family: 宋体'>项目介绍</span></strong></p><p style='text-indent:32px;line-height:150%'><span style='font-size:16px;line-height:150%'>2016</span><span style='font-size:16px;line-height:150%;font-family:宋体'>年</span><span style='font-size:16px;line-height:150%'>10</span><span style='font-size:16px;line-height:150%;font-family:宋体'>月，河南省范围展开现状评过项目，主要针对老企业进行环保文件，环保设施的完善，我公司为路力照明有限公司提供酸洗磷化废水的设计及设备，保证了，企业顺利完成环保评估。</span></p><p style='text-indent:32px;line-height:150%'><span style='font-size:16px;line-height:150%;font-family: 宋体'>项目采用工艺：“</span><span style='font-size:16px;line-height:150%'>PH</span><span style='font-size:16px;line-height:150%;font-family:宋体'>调节</span><span style='font-size:16px;line-height:150%'>+</span><span style='font-size:16px;line-height:150%;font-family:宋体'>絮凝沉淀</span><span style='font-size:16px;line-height:150%'>+</span><span style='font-size:16px;line-height:150%;font-family:宋体'>砂滤</span><span style='font-size:16px;line-height:150%'>+</span><span style='font-size:16px;line-height:150%;font-family:宋体'>超滤”污水采用零排放。</span></p><p style='text-indent:32px;line-height:150%'><strong><span style='font-size:16px;line-height:150%;font-family: 宋体'>项目现场图片</span></strong></p><p style='text-indent:32px;line-height:150%'><strong><span style='font-size:16px;line-height:150%;font-family: 宋体'></span></strong><br/></p><p style='text-indent:32px;line-height:150%'><strong><span style='font-size:16px;line-height:150%;font-family: 宋体'><br/></span></strong></p><p style='text-align:center'><strong><span style='font-size:16px'><img width='500' height='375' src='/images/case/2-1.png' alt='矿井水污水处理工程' title='矿井水污水处理工程'/></span></strong></p><p><br/></p>",
+        "newsid": null,
+        "pubdate": "12-13",
+        "timerecorded": "2016-12-13 11:45:26",
+        "title": "洛阳市路力照明有限公司酸洗磷化废水处理项目",
+        "intro": "洛阳市路力照明有限公司酸洗磷化废水处理项目",
+        "img": "/images/case/2.png",
+        "url": "",
+        "channelId": "e4b675ad0bb146adb07865a9534c214b",
+        "channelName": "工程案例"
+      },
+      {
+        "id": "3",
+        "author": "system",
+        "content":"<p style='text-indent:32px;line-height:150%'><strong><span style='font-size:16px;line-height:150%;font-family: 宋体'>项目介绍</span></strong></p><p style='text-indent:32px;line-height:150%'><span style='font-size:16px;line-height:150%;font-family: 宋体'>我公司与林州大峡谷签订合同，我公司负责设计、施工，对林州大峡谷景区内游客及宾馆产生的污水进行处理，达标排放的就近水体。根据现场我公司设计出</span><span style='font-size:16px;line-height:150%'>5</span><span style='font-size:16px;line-height:150%;font-family:宋体'>套地埋式生活污水处理设施，分别设置在景区附近厕所及商区汇集地，及宾馆废水排放口。</span></p><p style='text-indent:32px;line-height:150%'><span style='font-size:16px;line-height:150%;font-family: 宋体'>处理工艺采用“</span><span style='font-size:16px;line-height:150%'>A/O+</span><span style='font-size: 16px;line-height:150%;font-family:宋体'>斜管沉淀</span><span style='font-size:16px;line-height:150%'>+</span><span style='font-size:16px;line-height:150%;font-family:宋体'>消毒”</span></p><p style='text-indent:32px;line-height:150%'><strong><span style='font-size:16px;line-height:150%;font-family: 宋体'>相关图片</span></strong></p><p style='text-align:center'><strong><span style='font-size:16px'><img width='500' height='339' src='/images/case/3-1.png' alt='景区污水处理项目' title='景区污水处理项目'/></span></strong></p><p style='text-align:center'><strong><span style='font-size:16px'><img width='500' height='365' src='/images/case/3-2.png' alt='景区污水处理相关图片' title='景区污水处理相关图片'/></span></strong></p><p><br/></p>",
+        "newsid": null,
+        "pubdate": "12-13",
+        "timerecorded": "2016-12-13 11:45:26",
+        "title": "林州大峡谷景区5套污水处理工程",
+        "intro": "林州大峡谷景区5套污水处理工程",
+        "img": "/images/case/3.png",
+        "url": "",
+        "channelId": "e4b675ad0bb146adb07865a9534c214b",
+        "channelName": "工程案例"
+      },
+      {
+        "id": "4",
+        "author": "system",
+        "content":"<p style='text-indent:32px;line-height:150%'><strong><span style='font-size:16px;line-height:150%;font-family: 宋体'>项目介绍</span></strong></p><p style='text-indent:32px;line-height:150%'><span style='font-size:16px;line-height:150%;font-family: 宋体'>洛阳盛平华多种猪有限公司位于河南省汝阳县陶营乡柿园村西荒山坡上，公司点地550公亩。年出栏种猪30000头，商品猪60000头，计划建筑面积90000m2，按照现代养猪理念分区建设、四阶段隔离饲养，工艺先进、布局合理、四周环境优美、远离村庄和工厂，我公司为其设计的污水处理工程，不仅达到养殖行业的排放标准，而且高于其标准，并且运行成本低至行业内标准，仅需1元/吨左右。</span></p><p style='text-indent:32px;line-height:150%'><span style='font-size:16px;line-height:150%;font-family: 宋体'>工艺流程</span></p><p style='text-indent:32px;line-height:150%'><span style='font-size:16px;line-height:150%;font-family: 宋体'><br/></span></p><p style='text-align:center'><span style='font-size:16px;font-family:宋体'><img width='500' height='99' src='/images/case/4-1.png' alt='养殖废水工艺流程图' title='养殖废水工艺流程图'/></span></p><p><strong><span style='font-size:16px;font-family:宋体'><br/></span></strong></p><p><strong><span style='font-size:16px;font-family:宋体'>相关现场图片</span></strong></p><p><strong><span style='font-size:16px;font-family:宋体'><br/></span></strong></p><p><span style='font-size:16px;font-family:宋体'></span></p><p style='text-align:center'><img width='500' height='343' src='/images/case/4-2.png' alt='养殖废水处理项目' title='养殖废水处理项目'/></p><p><br/></p><p style='text-align:center'><span style='font-size:16px;font-family:宋体'><img width='500' height='375' src='/images/case/4-3.png' alt='养殖废水处理项目相关图片' title='养殖废水处理项目相关图片'/></span></p><p><br/></p>",
+        "newsid": null,
+        "pubdate": "12-13",
+        "timerecorded": "2016-12-13 11:45:26",
+        "title": "汝阳盛平华多种猪有限公司养猪废水处理工程",
+        "intro": "汝阳盛平华多种猪有限公司养猪废水处理工程",
+        "img": "/images/case/4.png",
+        "url": "",
+        "channelId": "e4b675ad0bb146adb07865a9534c214b",
+        "channelName": "工程案例"
+      }
+    ]
+  } ,
   "companyNews": [
     {
       "id": "1",
@@ -415,7 +437,7 @@
     "contact": {
       "id": "973fe257251d4fb585abc706ba41ba5e",
       "author": "system",
-      "content": "<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>洛阳永湛环保科技有限公司</b></p><p>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; <b>销售部</b>：18888888888 &nbsp; &nbsp; &nbsp; 18888888888</p><p>&nbsp; &nbsp; &nbsp; &nbsp; <b>技术部</b>：18888888888</p><p>　 &nbsp; &nbsp;<b> 邮 &nbsp; 编</b>：471002</p><p>　 &nbsp; &nbsp; <b>地 &nbsp; 址</b>：河南省洛阳市启明西路36号五楼　　E-mail：12345678@qq.com　　网址：<a href='http://www.yongzhanhb.com/'>http://www.yongzhanhb.com</a></p><p><br></p>",
+      "content": "<p style='padding: 0px; margin-top: 0em; margin-bottom: 0em; line-height: 4em; font-size: 14px; font-family: &quot;Times New Roman&quot;; letter-spacing: 0em; text-indent: 0em; white-space: normal; background-color: rgb(255, 255, 255);'><span style='font-size: 20px;'><strong>河南永湛环保科技有限公司</strong></span></p><p style='padding: 0px; margin-top: 0em; margin-bottom: 0em; line-height: 4em; font-size: 14px; font-family: &quot;Times New Roman&quot;; letter-spacing: 0em; text-indent: 0em; white-space: normal; background-color: rgb(255, 255, 255);'><span style='font-size: 20px;'><strong>&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; 销售部：152-2558-8753 &nbsp; &nbsp; &nbsp;&nbsp;</strong></span></p><p style='padding: 0px; margin-top: 0em; margin-bottom: 0em; line-height: 4em; font-size: 14px; font-family: &quot;Times New Roman&quot;; letter-spacing: 0em; text-indent: 0em; white-space: normal; background-color: rgb(255, 255, 255);'><span style='font-size: 20px;'><strong>&nbsp; &nbsp; &nbsp; &nbsp; 技术部：189-3950-1244</strong></span></p><p style='padding: 0px; margin-top: 0em; margin-bottom: 0em; line-height: 4em; font-size: 14px; font-family: &quot;Times New Roman&quot;; letter-spacing: 0em; text-indent: 0em; white-space: normal; background-color: rgb(255, 255, 255);'><span style='font-size: 20px;'><strong>　 &nbsp;&nbsp; 邮&nbsp;&nbsp;&nbsp;&nbsp;编：471002</strong></span></p><p style='padding: 0px; margin-top: 0em; margin-bottom: 0em; line-height: 4em; font-size: 14px; font-family: &quot;Times New Roman&quot;; letter-spacing: 0em; text-indent: 0em; white-space: normal; background-color: rgb(255, 255, 255);'><span style='font-size: 20px;'><strong>　 &nbsp;&nbsp; 地&nbsp;&nbsp;&nbsp;&nbsp;址：</strong></span><span style='font-size: 20px;'><strong>洛阳市洛龙区863创智广场1号楼1113</strong></span><span style='font-size: 20px;'><strong>　</strong></span></p><p style='padding: 0px; margin-top: 0em; margin-bottom: 0em; line-height: 4em; font-size: 14px; font-family: &quot;Times New Roman&quot;; letter-spacing: 0em; text-indent: 0em; white-space: normal; background-color: rgb(255, 255, 255);'><span style='font-size: 20px;'><strong>&nbsp;&nbsp;&nbsp;&nbsp;　E-mail：<a href='http://mailto:yongzhanhb@163.com' target='_self'>yongzhanhb@163.com</a><br/>　　网&nbsp;&nbsp;&nbsp;&nbsp;址：<a href='http://www.yongzhanhb.com/' target='_self'>http://www.yongzhanhb.com</a></strong></span></p><p><br/></p>",
       "newsid": null,
       "pubdate": "12-13",
       "timerecorded": "2016-12-13 11:45:26",

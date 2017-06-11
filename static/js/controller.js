@@ -131,7 +131,7 @@ routeApp.controller('honorCarouselCtrl', function($scope,$routeParams, $http) {
 
 //首页工程案例轮播图
 routeApp.controller('projectCarouselCtrl', function($scope,$routeParams, $http) {
-    $scope.urlType = "equipment";
+    $scope.urlType = "case";
     //加载完成
     $scope.$on('ngRepeatFinished', function (ngRepeatFinishedEvent) {
         var projectSwiper = new Swiper('.projectCarousel', {
@@ -142,7 +142,7 @@ routeApp.controller('projectCarouselCtrl', function($scope,$routeParams, $http) 
     });
 
 
-    $http.get(ip + "/api/v1/products/equipment")
+    $http.get(ip + "/api/v1/projects/case")
         .success(function (data) {
             $scope.data = data.data.slice(0,8);
         });
@@ -455,6 +455,31 @@ routeApp.controller('equipmentDetailCtrl', function($scope,$routeParams, $http, 
     $scope.urlType = "equipment";
     var id = $routeParams.id;
     $http.get(ip + "/api/v1/products/equipment")
+        .success(function (data) {
+            for(var i= 0;i<data.data.length;i++){
+                if(data.data[i].id == id){
+                    $scope.data = data.data[i];
+                    $scope.content = $sce.trustAsHtml(data.data[i].content)
+                }
+            }
+        });
+
+});
+
+//工程案例
+routeApp.controller('caseCtrl', function($scope,$routeParams, $http) {
+    $scope.urlType = "case";
+    $http.get(ip + "/api/v1/projects/case")
+        .success(function (data) {
+            $scope.data = data.data;
+        });
+
+});
+//工程案例详情页
+routeApp.controller('caseDetailCtrl', function($scope,$routeParams, $http, $sce) {
+    $scope.urlType = "case";
+    var id = $routeParams.id;
+    $http.get(ip + "/api/v1/projects/case")
         .success(function (data) {
             for(var i= 0;i<data.data.length;i++){
                 if(data.data[i].id == id){

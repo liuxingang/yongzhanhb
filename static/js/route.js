@@ -30,7 +30,8 @@ var routeApp = angular.module('routeApp',['ngRoute','ngSanitize']);
             .when('/product/noise/detail/:id',{templateUrl:'views/product/detail.html',controller:'noiseDetailCtrl'})
             .when('/product/equipment',{templateUrl:'views/product/list.html',controller:'equipmentCtrl'})
             .when('/product/equipment/detail/:id',{templateUrl:'views/product/detail.html',controller:'equipmentDetailCtrl'})
-
+            .when('/project/case',{templateUrl:'views/project/list.html',controller:'caseCtrl'})
+            .when('/project/case/detail/:id',{templateUrl:'views/project/detail.html',controller:'caseDetailCtrl'})
 
             .otherwise({redirectTo:'/'});
     }]);

@@ -357,6 +357,7 @@ nav {
 
 .company-intro .company-text p {
     font-size: 16px;
+    line-height: 26px;
 }
 .company-intro .company-text p.concact {
     line-height: 28px;
@@ -428,21 +429,55 @@ nav {
 }
 
 .projectCarousel {
+     width: 100%;
+     height: 200px;
+     padding: 10px;
+     background: #fff;
+ }
+
+.projectCarousel .swiper-slide a{
+    display: inline-block;
     width: 100%;
-    height: 200px;
-    padding: 10px;
-    background: #fff;
 }
 
 .projectCarousel .swiper-slide {
     background: #f9f9f9;
     padding: 10px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .projectCarousel .swiper-slide .title {
     background: #3d85da;
     color: #fff;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding:0 14px;
+
+}
+
+.projectCarousel .swiper-slide .intro-bg {
+    width: 100%;
+    font-size: 14px;
+    opacity: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 40px 20px 20px;
+    text-align: left;
+    color: #fff;
+    background: rgba(0, 0, 0, .6);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+
+}
+
+.projectCarousel .item a:hover .intro-bg {
+    opacity: 1;
+    height: 100%;
 
 }
 
@@ -623,7 +658,7 @@ nav {
 
 .left-sidebar .sidebar-contact {
     width: 270px;
-    height: 255px;
+    height: 350px;
     margin-top: 30px;
     background-color: #FFF;
     padding: 20px 20px 0px;
@@ -765,6 +800,8 @@ nav {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
+    padding-bottom: 6px;
+    border-bottom: 1px dotted grey;
 }
 
 .new-detail .content .text {
@@ -820,7 +857,11 @@ nav {
 .news-wrap .product-list-wrap .content .item p {
     background: #008ad6;
     color: #fff;
-    padding: 4px;
+    /*padding: 4px;*/
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding:4px 14px;
 }
 
 .news-wrap .product-list-wrap .content .item .intro-bg {
@@ -861,7 +902,7 @@ nav {
 
 .product-detail-wrap .content .head .f-right h2 {
     color: #015db2;
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .product-detail-wrap .content .head .f-right p {

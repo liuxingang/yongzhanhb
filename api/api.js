@@ -18,6 +18,7 @@ var products = data.products;
 
 
 
+
 //网站首页轮播图 api
 router.get('/api/v1/index/carousel',function(req,res){
 
@@ -44,11 +45,11 @@ router.get('/api/v1/index/honors',function(req,res){
 
 });
 
-//网站首页资质荣誉轮播图
-router.get('/api/v1/index/projects',function(req,res){
+//工程案例
+router.get('/api/v1/projects/case',function(req,res){
 
     res.send({
-        data: projects
+        data: projects.case
     });
 
 });
