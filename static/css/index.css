@@ -709,6 +709,22 @@ nav {
     background: #787878;
 }
 
+.footer-wrap .friend{
+    background: #dadada;
+    padding-left:120px;
+}
+.footer-wrap .friend ul li{
+    float: left;
+    padding:8px;
+}
+.footer-wrap .friend ul li a{
+    color:#0b6ac1;
+}
+.footer-wrap .friend ul li a:hover{
+   color:grey;
+}
+
+
 .footer-wrap .footer-nav {
     padding: 20px 0;
 }
