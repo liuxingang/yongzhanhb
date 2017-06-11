@@ -141,7 +141,7 @@ nav {
 }
 
 .search-bg .keywords {
-    width: 49%;
+    width: 70%;
     float: left;
     line-height: 27px;
     height: 27px;
@@ -154,7 +154,7 @@ nav {
 }
 
 #search_right {
-    width: 50%;
+    width: 29%;
     float: right;
     text-align: right;
 }
@@ -311,12 +311,14 @@ nav {
 }
 
 .business-area .pannel-body {
-    background: #3d85da;
+    background: #ebebeb;
 }
 
 .business-area .pannel-body ul li {
     display: block;
     text-align: center;
+    background: #3d85da;
+    margin-bottom: 3px;
 }
 
 .business-area .pannel-body ul li:hover {
@@ -328,7 +330,7 @@ nav {
     display: inline-block;
     width: 100%;
     color: #fff;
-    padding: 31px 8px;
+    padding: 30px 8px;
     box-sizing: border-box;
 }
 
