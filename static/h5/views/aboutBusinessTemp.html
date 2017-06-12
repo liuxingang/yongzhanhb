@@ -1,0 +1,118 @@
+<style>
+    /* Demo Styles */
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .swiper-container {
+       width:100%;
+        height: 50px;
+        text-align: center;
+        margin-top:43px;
+    }
+    .swiper-slide {
+        width: 500px;
+        padding: 13px;
+        background: #fff;
+    }
+    .swiper-slide div{
+        border:thin solid #80A6D6;
+        border-radius: 4px;
+        padding: 4px;
+        width: 80px;
+    }
+    .swiper-slide div a{
+        display: inline-block;
+    }
+
+    .list-wrapper .content .item .title{
+        border:none;
+    }
+    .list-wrapper .content .item .title img{
+        width:100px;
+        vertical-align: middle;
+        margin:0 20px;
+
+    }
+</style>
+<nav class="clear news-list-navwrapper">
+    <div class="back">
+        <a href="javascript: history.go(-1);">
+            <img src="images/back@3x.png" alt="返回">
+        </a>
+    </div>
+    <div class="navTitle">
+        <span>关于永湛</span>
+    </div>
+    <div class="navSearch">
+        <a href="#/">
+            <!--<img src="images/home.png" alt="首页">-->
+            首页
+        </a>
+    </div>
+</nav>
+
+<!--slide nav-->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div style=" float:left; text-align:center;">
+                <a href="#/about/intro">公司简介</a>
+            </div>
+            <div style=" float:left; text-align:center;margin-left:18px">
+                <a href="#/about/culture">企业文化</a>
+            </div>
+            <div style=" float:left; text-align:center;margin-left:18px">
+                <a href="#/about/business">经营范围</a>
+            </div>
+            <div style=" float:left; text-align:center;margin-left:18px">
+                <a href="#/about/honor">资质荣誉</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-container">
+    <div class="list-wrapper" style="margin-top: 0;">
+        <h3>
+            {{data.channelName}}
+        </h3>
+        <div class="relate-video">
+            <div class="content" style="line-height: 28px;">
+                <div class="text">
+                    <div class="item">
+                        <h4 class="title"><img src="/images/about/bussiness1.jpg" alt="">工业废水及市政污水</h4>
+                        <p>本公司主要经营范围为：工业污水及中水回用（零排放）、市政污水、村镇污水、电厂废水、化工废水、医药废水、印染废水、屠宰废水、食品废水、冶金废水、垃圾渗滤液、人工湿地工程等；业务领域为：村镇、
+                            电力、化工、焦化、皮革、造纸、制药、印染、酒类、食品、市政等方面的污水处理的工程总承包。</p>
+                    </div>
+                    <br>
+                    <div class="item">
+                        <h4 class="title"><img src="/images/about/bussiness2.jpg" alt="">废气及除尘治理</h4>
+                        <p>燃煤电厂烟气、垃圾焚烧发电厂烟气脱硫脱硝工程、中小锅炉烟气脱硫脱硝除尘工程、除尘系统的改造工程总承包、油烟气净化、VOC工业废气治理工程总承包等。</p>
+                    </div>
+                    <br>
+                    <div class="item">
+                        <h4 class="title"><img src="/images/about/bussiness3.jpg" alt="">环保技术服务</h4>
+                        <p>环保工程的技术开发与咨询、环保工程的设计服务；在国内和国际市场为客户提供免费技术咨询、治理方案设计，治理工程设计及建设等高端服务。</p>
+                    </div>
+                    <br>
+                    <div class="item">
+                        <h4 class="title"><img src="/images/about/bussiness4.jpg" alt="">环保设备的制造及销售</h4>
+                        <p>一体化污水处理设备、除尘设备、废气处理装置、净水设备等环保产品的加工制造、销售。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var mySwiper = new Swiper('.swiper-container',{
+        scrollContainer: true,
+        scrollbar: {
+            container: '.swiper-scrollbar'
+        }
+    })
+</script>

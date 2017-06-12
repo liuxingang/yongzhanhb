@@ -1,0 +1,72 @@
+<style>
+    .swiper-container {
+        width:100%;
+        height: 50px;
+        text-align: center;
+        margin-top:43px;
+    }
+    .swiper-slide {
+        width: 100%;
+        padding: 13px;
+        background: #fff;
+    }
+    .swiper-slide div{
+        border:thin solid #80A6D6;
+        border-radius: 4px;
+        padding: 4px;
+        width: 80px;
+        font-size: 14px;
+    }
+</style>
+<nav class="clear news-list-navwrapper">
+    <div class="back">
+        <a href="javascript: history.go(-1);">
+            <img src="images/back@3x.png" alt="返回">
+        </a>
+    </div>
+    <div class="navTitle">
+        <span>公司业绩</span>
+    </div>
+    <div class="navSearch">
+        <a href="#/">
+            首页
+        </a>
+    </div>
+</nav>
+
+<!--slide nav-->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div style=" float:left; text-align:center;">
+                <a href="#/project/case">工程案例</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="main-container">
+    <div class="list-wrapper">
+        <h3 ng-bind="data[0].channelName"></h3>
+        <div class="relate-video" style="margin: 0 8px;">
+            <ul>
+                <li ng-repeat="item in data">
+                    <a class="a-change" href="#/project/{{urlType}}/detail/{{item.id}}">
+                        <img ng-src={{item.img}} alt="">
+                        <p ng-bind="item.title"></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    var mySwiper = new Swiper('.swiper-container',{
+        scrollContainer: true,
+        scrollbar: {
+            container: '.swiper-scrollbar'
+        }
+    })
+</script>

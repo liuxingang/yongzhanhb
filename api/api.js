@@ -16,9 +16,9 @@ var aboutUs = data.aboutUs;
 var service = data.service;
 var products = data.products;
 
-
-
-
+router.get("/",function (req,res) {
+    res.render('index');
+});
 //网站首页轮播图 api
 router.get('/api/v1/index/carousel',function(req,res){
 

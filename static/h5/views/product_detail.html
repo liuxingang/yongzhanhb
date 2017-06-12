@@ -1,0 +1,35 @@
+
+    <nav class="clear video-player-wrapper">
+        <div class="back">
+            <a href="javascript: history.go(-1);">
+                <img src="images/back@3x.png" alt="返回">
+            </a>
+        </div>
+        <div class="navTitle">
+            <span>{{data.channelName}}</span>
+        </div>
+        <div class="navSearch">
+            <a href="#/">
+                首页
+            </a>
+        </div>
+    </nav>
+
+<div class="procuct_detail_wrap">
+    <div class="video-title">
+        <p ng-bind="data.title"></p>
+    </div>
+    <div class="img">
+        <img ng-src="{{data.img}}" alt="">
+    </div>
+
+    <div class="content">
+        <div class="title">
+            产品详细介绍
+        </div>
+        <div class="text">
+            <p ng-bind-html="data.content"></p>
+        </div>
+    </div>
+</div>
+

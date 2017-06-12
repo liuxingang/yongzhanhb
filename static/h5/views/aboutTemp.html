@@ -1,0 +1,88 @@
+<style>
+    /* Demo Styles */
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .swiper-container {
+       width:100%;
+        height: 50px;
+        text-align: center;
+        margin-top:43px;
+    }
+    .swiper-slide {
+        width: 500px;
+        padding: 13px;
+        background: #fff;
+    }
+    .swiper-slide div{
+        border:thin solid #80A6D6;
+        border-radius: 4px;
+        padding: 4px;
+        width: 80px;
+
+    }
+    .swiper-slide div a{
+        display: inline-block;
+    }
+</style>
+<nav class="clear news-list-navwrapper">
+    <div class="back">
+        <a href="javascript: history.go(-1);">
+            <img src="images/back@3x.png" alt="返回">
+        </a>
+    </div>
+    <div class="navTitle">
+        <span>关于永湛</span>
+    </div>
+    <div class="navSearch">
+        <a href="#/">
+            <!--<img src="images/home.png" alt="首页">-->
+            首页
+        </a>
+    </div>
+</nav>
+
+<!--slide nav-->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div style=" float:left; text-align:center;">
+                <a href="#/about/intro">公司简介</a>
+            </div>
+            <div style=" float:left; text-align:center;margin-left:18px">
+                <a href="#/about/culture">企业文化</a>
+            </div>
+            <div style=" float:left; text-align:center;margin-left:18px">
+                <a href="#/about/business">经营范围</a>
+            </div>
+            <div style=" float:left; text-align:center;margin-left:18px">
+                <a href="#/about/honor">资质荣誉</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-container">
+    <div class="list-wrapper" style="margin-top: 0;">
+        <h3>
+            {{data.channelName}}
+        </h3>
+        <div class="relate-video">
+            <div class="content" style="line-height: 28px;padding:0 8px;">
+                <div class="text" ng-bind-html="content"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var mySwiper = new Swiper('.swiper-container',{
+        scrollContainer: true,
+        scrollbar: {
+            container: '.swiper-scrollbar'
+        }
+    })
+</script>

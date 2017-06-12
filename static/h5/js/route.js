@@ -1,0 +1,97 @@
+/**
+ * Created by pmcc on 16/10/10.
+ */
+//配置ip
+var ip = "";
+
+var routeApp = angular.module('routeApp',['ngRoute','ngSanitize']);
+    routeApp.config(['$routeProvider','$locationProvider',function($routeProvider,$locationProvider){
+        $routeProvider.when('/',{templateUrl:'views/main.html',controller:'mainApp'})
+            .when('/index/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'swiperDetailCtrl'})
+            .when('/index/important/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'importantNewsDetailCtrl'})
+            .when('/index/important/list',{templateUrl:'views/newsListTemp.html',controller:'importantNewsCtrl'})
+            .when('/index/important/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'importantListNewsDetailCtrl'})
+            .when('/index/pmccnews/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'pmccNewsDetailCtrl'})
+            .when('/index/pmccnews/list',{templateUrl:'views/pmccnewsListTemp.html',controller:'pmccNewsCtrl'})
+            .when('/index/pmccnews/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'pmccNewsListNewsDetailCtrl'})
+            .when('/index/colorlife/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'colorLifeDetailCtrl'})
+            .when('/index/colorlife/list',{templateUrl:'views/colorlifeListTemp.html',controller:'colorLifeCtrl'})
+            .when('/index/colorlife/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'colorLifeListNewsDetailCtrl'})
+            .when('/index/weather/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'weatherDetailCtrl'})
+            .when('/index/weather/list',{templateUrl:'views/weatherListTemp.html',controller:'weatherCtrl'})
+            .when('/index/weather/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'weatherListNewsDetailCtrl'})
+
+            .when('/about/intro',{templateUrl:'views/aboutTemp.html',controller:'companyIntroCtrl'})
+            .when('/about/culture',{templateUrl:'views/aboutTemp.html',controller:'companyCultureCtrl'})
+            .when('/about/business',{templateUrl:'views/aboutBusinessTemp.html',controller:'companyBusinessCtrl'})
+            .when('/about/honor',{templateUrl:'views/aboutHonorTemp.html',controller:'companyHonorCtrl'})
+
+            .when('/product/designservice',{templateUrl:'views/productDesignService.html',controller:'designserviceCtrl'})
+            .when('/product/wasteWater',{templateUrl:'views/product_list.html',controller:'wasteWaterCtrl'})
+            .when('/product/wasteWater/detail/:id',{templateUrl:'views/product_detail.html',controller:'wasteWaterDetailCtrl'})
+            .when('/product/smoke',{templateUrl:'views/product_list.html',controller:'smokeCtrl'})
+            .when('/product/smoke/detail/:id',{templateUrl:'views/product_detail.html',controller:'smokeDetailCtrl'})
+            .when('/product/noise',{templateUrl:'views/product_list.html',controller:'noiseCtrl'})
+            .when('/product/noise/detail/:id',{templateUrl:'views/product_detail.html',controller:'noiseDetailCtrl'})
+            .when('/product/equipment',{templateUrl:'views/product_list.html',controller:'equipmentCtrl'})
+            .when('/product/equipment/detail/:id',{templateUrl:'views/product_detail.html',controller:'equipmentDetailCtrl'})
+
+            .when('/project/case',{templateUrl:'views/project_list.html',controller:'caseCtrl'})
+            .when('/project/case/detail/:id',{templateUrl:'views/project_detail.html',controller:'caseDetailCtrl'})
+
+            .when('/news/company',{templateUrl:'views/news_list.html',controller:'CompanyNewsListCtrl'})
+            .when('/news/company/detail/:id',{templateUrl:'views/news_detail.html',controller:'CompanyNewsDetailCtrl'})
+            .when('/news/trade',{templateUrl:'views/news_list.html',controller:'TradeNewsListCtrl'})
+            .when('/news/trade/detail/:id',{templateUrl:'views/news_detail.html',controller:'TradeNewsDetailCtrl'})
+            .when('/news/service',{templateUrl:'views/news_list.html',controller:'serviceNewsListCtrl'})
+            .when('/news/service/detail/:id',{templateUrl:'views/news_detail.html',controller:'serviceNewsDetailCtrl'})
+
+            .when('/service/contact',{templateUrl:'views/service_detail.html',controller:'contactCtrl'})
+            .when('/service/recruitment',{templateUrl:'views/service_detail.html',controller:'recruitmentCtrl'})
+            .when('/service/technology',{templateUrl:'views/technoligyService_detail.html',controller:'technologyCtrl'})
+
+
+
+            .when('/index/jtxw/yw',{templateUrl:'views/jtxwTemp.html',controller:'jtxwYwCtrl'})
+            .when('/index/jtxw/zjjc',{templateUrl:'views/jtxwTemp.html',controller:'jtxwZjjcCtrl'})
+            .when('/index/zjjc/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'zjjcListDetailCtrl'})
+            .when('/index/jtxw/eccy',{templateUrl:'views/jtxwTemp.html',controller:'jtxwEccyCtrl'})
+            .when('/index/eccy/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'eccyListDetailCtrl'})
+            .when('/index/jtxw/zjc',{templateUrl:'views/jtxwTemp.html',controller:'jtxwZjcCtrl'})
+            .when('/index/zjc/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'zjcListDetailCtrl'})
+            .when('/index/jtxw/aqr',{templateUrl:'views/jtxwTemp.html',controller:'jtxwAqrCtrl'})
+            .when('/index/aqr/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'aqrListDetailCtrl'})
+            .when('/index/aqtd/aqbb',{templateUrl:'views/aqtdTemp.html',controller:'aqtdAqbbCtrl'})
+            .when('/index/aqbb/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'aqbbListDetailCtrl'})
+            .when('/index/aqtd/aksh',{templateUrl:'views/aqtdTemp.html',controller:'aqtdAkshCtrl'})
+            .when('/index/aksh/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'akshListDetailCtrl'})
+            .when('/index/aqtd/jsjy',{templateUrl:'views/aqtdTemp.html',controller:'aqtdJsjyCtrl'})
+            .when('/index/jsjy/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'jsjyListDetailCtrl'})
+            .when('/index/aqtd/aqft',{templateUrl:'views/aqtdTemp.html',controller:'aqtdAqftCtrl'})
+            .when('/index/aqft/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'aqftListDetailCtrl'})
+            .when('/index/dcrs',{templateUrl:'views/dcrsTemp.html',controller:'dcrsCtrl'})
+            .when('/index/dcrs/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'dcrsListDetailCtrl'})
+            .when('/index/ztbd/xlzb',{templateUrl:'views/ztbdTemp.html',controller:'ztbdXlzbCtrl'})
+            .when('/index/xlzb/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'xlzbListDetailCtrl'})
+            .when('/index/ztbd/djt',{templateUrl:'views/ztbdTemp.html',controller:'ztbdDjtCtrl'})
+            .when('/index/djt/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'djtListDetailCtrl'})
+            .when('/index/ztbd/dqpp',{templateUrl:'views/ztbdTemp.html',controller:'ztbdDqppCtrl'})
+            .when('/index/dqpp/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'dqppListDetailCtrl'})
+            .when('/index/jczb',{templateUrl:'views/jczbTemp.html',controller:'jczbCtrl'})
+            .when('/index/jczb/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'jczbListDetailCtrl'})
+            .when('/index/wytd/jchg',{templateUrl:'views/wytdTemp.html',controller:'wytdJchgCtrl'})
+            .when('/index/jchg/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'jchgListDetailCtrl'})
+            .when('/index/wytd/jdsk',{templateUrl:'views/wytdTemp.html',controller:'wytdJdskCtrl'})
+            .when('/index/jdsk/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'jdskListDetailCtrl'})
+            .when('/index/wytd/yckj',{templateUrl:'views/wytdTemp.html',controller:'wytdYckjCtrl'})
+            .when('/index/yckj/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'yckjListDetailCtrl'})
+            .when('/index/xxzs/qyfc',{templateUrl:'views/xxzsTemp.html',controller:'xxzsQyfcCtrl'})
+            .when('/index/qyfc/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'qyfcListDetailCtrl'})
+            .when('/index/more/tqyb',{templateUrl:'views/moreTemp.html',controller:'weatherCtrl'})
+            .when('/index/qyfc/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'qyfcListDetailCtrl'})
+            .when('/index/more/pk',{templateUrl:'views/moreTemp.html',controller:'pkCtrl'})
+            .when('/index/pk/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'pkListDetailCtrl'})
+            .when('/index/more/lsly',{templateUrl:'views/moreTemp.html',controller:'lslyCtrl'})
+            .when('/index/lsly/list/videoXsj:id',{templateUrl:'views/newsVideoTemp.html',controller:'lslyListDetailCtrl'})
+            .otherwise({redirectTo:'/'});
+    }]);

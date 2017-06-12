@@ -1,0 +1,31 @@
+<nav class="clear news-list-navwrapper">
+    <div class="back">
+        <a href="javascript: history.go(-1);">
+            <img src="images/back@3x.png" alt="返回">
+        </a>
+    </div>
+    <div class="navTitle">
+        <span>新视界</span>
+    </div>
+    <div class="navSearch">
+        <a href="#/">
+            <img src="images/home.png" alt="首页">
+        </a>
+    </div>
+</nav>
+
+<div class="main-container">
+    <div class="list-wrapper">
+        <h3 ng-bind="dataList[0].categoryName"></h3>
+        <div class="relate-video">
+            <ul>
+                <li ng-repeat="item in dataList">
+                    <a class="a-change" href="#/index/pmccnews/list/videoXsj:{{$index}}"  data-title={{item.mediaName}} data-url={{item.webvir}}>
+                        <img ng-src={{ip}}{{item.img}} alt="">
+                        <p ng-bind="item.mediaName"></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

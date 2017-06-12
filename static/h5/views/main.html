@@ -1,0 +1,168 @@
+<nav class="clear news-list-navwrapper">
+    <div class="logo">
+        <img src="images/logo.png" alt="永湛环保">
+    </div>
+    <div class="navTitle">
+        <span>河南永湛环保科技有限公司</span>
+    </div>
+    <div class="navSearch">
+        <a href="#/">
+            <!--<img src="images/home.png" alt="首页">-->
+            首页
+        </a>
+    </div>
+</nav>
+<!--container-->
+<div class="main-container" style="margin-top: 42px;">
+    <div class="swiper-container">
+        <div class="swiper-wrapper " ng-controller="swiperCtrl">
+            <div class="swiper-slide" ng-repeat="item in dataList">
+                <!--<a href="{{ip}}{{item.url}}">-->
+                <a href="#/index/videoXsj:{{$index}}">
+                    <!--<img ng-src={{item.content}} alt="">-->
+                    <div style="background-image: url({{item.content}});background-size: auto 480px;background-repeat: no-repeat;background-position: center;width: 100%;height: 280px;"></div>
+                    <!--<p class="swiper-title">{{item.mediaName}}</p>-->
+                </a>
+
+            </div>
+        </div>
+
+        <div class="pagination"></div>
+
+    </div>
+    <!--column-->
+    <div class="m-column">
+        <ul>
+            <li class="rb-border">
+                <a href="#/about/intro">
+                    <!--<img src="images/cate_1@3x.png" alt="关于永湛">-->
+                    <p>关于永湛</p>
+                </a>
+
+            </li>
+            <li class="rb-border">
+                <a href="#/product/wasteWater">
+                    <!--<img src="images/cate_2@3x.png" alt="安全天地">-->
+                    <p>业务领域</p>
+                </a>
+
+            </li>
+            <li class="rb-border">
+                <a href="#/project/case">
+                    <!--<img src="images/cate_3@3x.png" alt="多彩人生">-->
+                    <p>公司业绩</p>
+                </a>
+
+            </li>
+            <li class="b-border">
+                <a href="#/about/honor">
+                    <!--<img src="images/cate_4@3x.png" alt="专题报道">-->
+                    <p>资质荣誉</p>
+                </a>
+
+            </li>
+            <li class="r-border">
+                <a href="#/news/company">
+                    <!--<img src="images/cate_5@3x.png" alt="基层直播">-->
+                    <p>新闻资讯</p>
+                </a>
+
+            </li>
+
+            <li class="r-border">
+                <a href="#/service/contact">
+                    <!--<img src="images/cate_7@3x.png" alt="形象展示">-->
+                    <p>联系我们</p>
+                </a>
+
+            </li>
+            <li>
+                <a href="#/product/designservice">
+                    <!--<img src="images/cate_8@3x.png" alt="更多">-->
+                    <p>设计服务</p>
+                </a>
+
+            </li>
+            <li class="r-border">
+                <a href="#/service/recruitment">
+                    <!--<img src="images/cate_6@3x.png" alt="文艺天地">-->
+                    <p>人才招聘</p>
+                </a>
+
+            </li>
+        </ul>
+    </div>
+
+    <!--news-->
+    <div class="m-news" ng-controller="companyIntroCtrl">
+        <div class="m-news-title clear">
+            <h3>公司简介</h3>
+            <a href="#/about/intro" class="m-news-more">更多></a>
+        </div>
+        <div class="m-news-content">
+
+                <div class="m-news-content-video">
+                    <img src="/images/company.jpg" alt="">
+                </div>
+                <!--<p class="m-news-content-title">-->
+                    <a href="#/about/intro">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;河南永湛环保科技有限公司是一家集销售、设计、施工、安装、调试、售后、运营为一体的环保工程公司。主要业务范围有以下方面： （一）工业污水及中水回用（零排放）、市政污水、村镇污水、电厂废水、化工废水、医药废水、印染废水、屠宰废水、食品废水、冶金废水、垃圾渗滤液、人工湿地工程、沼气回用工程总承包和环保设施运营...
+                </a>
+                <!--</p>-->
+
+        </div>
+    </div>
+
+    <div class="m-news" ng-controller="wasteWaterCtrl">
+        <div class="m-news-title clear">
+            <h3>业务领域</h3>
+            <a href="#/product/wasteWater" class="m-news-more">更多></a>
+        </div>
+        <div class="m-news-content relate-video">
+            <ul>
+                <li ng-repeat="item in dataIndex">
+                    <a class="a-change" href="#/product/{{urlType}}/detail/{{item.id}}">
+                        <img ng-src={{item.img}} alt="">
+                        <p ng-bind="item.title"></p>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="m-news" ng-controller="CompanyNewsListCtrl" style="padding-bottom:10px;">
+        <div class="m-news-title clear">
+            <h3>新闻资讯</h3>
+            <a href="#/news/company" class="m-news-more">更多></a>
+        </div>
+        <div class="">
+            <ul>
+                <li class="item" ng-repeat="item in data" style="position: relative;border-bottom: 1px dotted grey">
+                    <a class="a-change" href="#/news/{{urlType}}/detail/{{item.id}}">
+                        <p ng-bind="item.title" style="padding:0;font-size: 14px;"></p>
+                        <p class="time" style="padding:0;font-size: 12px;">{{item.timerecorded}}</p>
+                        <span class="more" style="position: absolute;right:0;top:4px;">></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="m-news"  style="padding-bottom:10px;">
+        <div class="m-news-title clear">
+            <h3>联系我们</h3>
+            <a href="#/service/contact" class="m-news-more">更多></a>
+        </div>
+        <div class="" style="font-size: 14px;">
+            <p style="margin-bottom: 8px;">河南永湛环保科技有限公司</p>
+            <p>销售部：<a href="tel:18939501244" style="color:#3d85da;">152-2558-8753</a></p>
+            <p>技术部：<a href="tel:18939501244" style="color:#3d85da;">189-3950-1244</a></p>
+            <p>地  址：洛阳市洛龙区863创智广场1号楼1113</p>
+            <p>网  址：http://www.yongzhanhb.com</p>
+
+        </div>
+    </div>
+
+
+</div>

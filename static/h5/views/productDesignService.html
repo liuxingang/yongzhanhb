@@ -1,0 +1,133 @@
+<style>
+    /* Demo Styles */
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .swiper-container {
+       width:100%;
+        height: 50px;
+        text-align: center;
+        margin-top:43px;
+    }
+    .swiper-slide {
+        width: 600px;
+        padding: 13px;
+        background: #fff;
+    }
+    .swiper-slide div{
+        border:thin solid #80A6D6;
+        border-radius: 4px;
+        padding: 4px;
+        width: 80px;
+        font-size: 14px;
+    }
+    .swiper-slide div a{
+        display: inline-block;
+    }
+
+    .list-wrapper .content .item .title{
+        border:none;
+    }
+    .list-wrapper .content .item .title img{
+        width:100px;
+        vertical-align: middle;
+        margin:0 20px;
+
+    }
+</style>
+<nav class="clear news-list-navwrapper">
+    <div class="back">
+        <a href="javascript: history.go(-1);">
+            <img src="images/back@3x.png" alt="返回">
+        </a>
+    </div>
+    <div class="navTitle">
+        <span>关于永湛</span>
+    </div>
+    <div class="navSearch">
+        <a href="#/">
+            <!--<img src="images/home.png" alt="首页">-->
+            首页
+        </a>
+    </div>
+</nav>
+
+<!--slide nav-->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div style=" float:left; text-align:center;">
+                <a href="#/product/designservice">设计服务</a>
+            </div>
+            <div style=" float:left; text-align:center;margin-left:18px">
+                <a href="#/product/wasteWater">废水处理</a>
+            </div>
+            <div style=" float:left; text-align:center;margin-left:18px">
+                <a href="#/product/smoke">烟气处理</a>
+            </div>
+            <div style=" float:left; text-align:center;margin-left:18px">
+                <a href="#/product/noise">噪声处理</a>
+            </div>
+            <div style=" float:left; text-align:center;margin-left:18px">
+                <a href="#/product/equipment">设备制造</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-container">
+    <div class="list-wrapper" style="margin-top: 0;">
+        <h3>
+            {{data.channelName}}
+        </h3>
+        <div class="relate-video">
+            <div class="content" style="line-height: 28px;">
+
+
+                <div class="text">
+                    <div class="item">
+                        <h4 class="title"><img src="/images/service/technology1.png" alt="">工业废水、高难度废水零排放设计</h4>
+                        <p>本公司针对工业废水处理、电力及煤化工废水零排放、脱盐水、中水回用、凝结水、垃圾渗滤液等会根据实地情况考察做出相关方案设计。</p>
+                    </div>
+                    <br>
+                    <div class="item">
+                        <h4 class="title"><img src="/images/service/technology2.png" alt="">厂况脱硫、脱硝及除尘治理设计</h4>
+                        <p>本公司在电厂烟气脱硫、脱硝除尘与多家设计院合作，积累了丰富的经验。可以长期提供相关设备制造设计、改造项目的设计。</p>
+                    </div>
+                    <br>
+                    <div class="item">
+                        <h4 class="title"><img src="/images/service/technology3.png" alt="">提供环境项目评价、技术方案</h4>
+                        <p>为客户提供一年免费上门技术服务，终身免费技术咨询，解决企业环保工程在运行中的各种难题。</p>
+                    </div>
+                    <br>
+                    <div class="item">
+                        <h4 class="title"><img src="/images/service/technology4.png" alt="">提供污水处理工程设计</h4>
+                        <p>为客户提供环保工程优质设计，确保环保工程的设计科学性、发展可行性、技术先进性、投资节约性、环保理想性、生产效益性。</p>
+                    </div>
+                    <br>
+                    <div class="item">
+                        <h4 class="title"><img src="/images/service/technology5.png" alt="">提供施工图设计</h4>
+                        <p>根据客户需要为客户提供污水处理、废气处理的环保方面的施工图设计，包含工艺图纸、结构图纸、电气图纸等。</p>
+                    </div>
+                    <br>
+                    <div class="item">
+                        <h4 class="title"><img src="/images/service/technology6.png" alt="">环保设备的设计</h4>
+                        <p>公司针对不同行业的特点，有针对性地研发出了高效气浮装置、加药装置、刮泥机、滗水器、静态管道混合器、一体化生活污水处理设备等，客户的需求就是我们的目标，我们全心全意为用户开发设计最适合的产品。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var mySwiper = new Swiper('.swiper-container',{
+        scrollContainer: true,
+        scrollbar: {
+            container: '.swiper-scrollbar'
+        }
+    })
+</script>
