@@ -16,13 +16,13 @@
 <div class="main-container" style="margin-top: 42px;">
     <div class="swiper-container">
         <div class="swiper-wrapper " ng-controller="swiperCtrl">
-            <div class="swiper-slide" ng-repeat="item in dataList">
+            <div class="swiper-slide" on-finish-render-filters ng-repeat="item in dataList" style="text-align: center">
                 <!--<a href="{{ip}}{{item.url}}">-->
-                <a href="#/index/videoXsj:{{$index}}">
-                    <!--<img ng-src={{item.content}} alt="">-->
-                    <div style="background-image: url({{item.content}});background-size: auto 480px;background-repeat: no-repeat;background-position: center;width: 100%;height: 280px;"></div>
-                    <!--<p class="swiper-title">{{item.mediaName}}</p>-->
-                </a>
+
+                    <!--<img ng-src={{item.content}} alt="" width="100%">-->
+                    <img ng-src="http://m.lysmhb.com/imageRepository/ef1d7d9c-f007-44b8-9119-04cd3e399784.jpg" alt="" width="100%" style="">
+                    <!--<div style="background-image: url({{item.content}});background-size: auto 280px;background-repeat: no-repeat;background-position: center;width: 100%;height: 280px;"></div>-->
+
 
             </div>
         </div>
@@ -76,14 +76,14 @@
                 </a>
 
             </li>
-            <li>
+            <li class="r-border">
                 <a href="#/product/designservice">
                     <!--<img src="images/cate_8@3x.png" alt="更多">-->
                     <p>设计服务</p>
                 </a>
 
             </li>
-            <li class="r-border">
+            <li >
                 <a href="#/service/recruitment">
                     <!--<img src="images/cate_6@3x.png" alt="文艺天地">-->
                     <p>人才招聘</p>

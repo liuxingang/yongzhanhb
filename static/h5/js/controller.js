@@ -2,10 +2,23 @@
  * Created by pmcc on 16/10/10.
  */
 
+//指令
+routeApp.directive('onFinishRenderFilters', function ($timeout) {
+    return {
+        restrict: 'A',
+        link: function (scope, element, attr) {
+            if (scope.$last === true) {
+                $timeout(function () {
+                    scope.$emit('ngRepeatFinished');
+                });
+            }
+        }
+    }
+});
 
 routeApp.controller('mainApp', function ($scope) {
 
-    setTimeout(function () {
+    $scope.$on('ngRepeatFinished', function (ngRepeatFinishedEvent) {
         var mySwiper = new Swiper('.swiper-container', {
             autoplay: 2000,
             pagination: '.pagination',
@@ -13,7 +26,7 @@ routeApp.controller('mainApp', function ($scope) {
             grabCursor: true,
             paginationClickable: true
         })
-    }, 1500)
+    })
 
 });
 
