@@ -1,0 +1,72 @@
+<div class="banner-img service"></div>
+
+<div class="container m-wrap m-20 clearFloat">
+    <div class="left-sidebar">
+        <ul>
+            <li class="sidebar-head">加入永湛</li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'recruitment'}"><a href="#/service/recruitment">人才招聘</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType === 'contact'}"><a href="#/service/contact">联系我们</a></li>
+            <li class="sidebar-item " ng-class="{'active':urlType=== 'technology'}"><a href="#/service/technology">技术服务</a></li>
+
+        </ul>
+        <div class="sidebar-contact">
+            <div class="title">联系我们</div>
+            <div class="content">
+                <img src="/images/lxwm.jpg" width="230" height="80">
+                <p>销售部：152-2555-8753</p>
+                <p>技术部：189-3950-1244</p>
+                <p>邮&nbsp;&nbsp;&nbsp;箱：yongzhanhb@163.com</p>
+                <p>地&nbsp;&nbsp;&nbsp;址：洛阳市洛龙区863创智广场1号楼1113</p>
+            </div>
+        </div>
+    </div>
+    <div class="right-wrap new-detail">
+        <div class="title">
+            <span>{{data.channelName}}</span>
+        </div>
+        <div class="content">
+            <div class="text" ng-bind-html="content"></div>
+        </div>
+        <div id="map" style="width: 800px;height:400px;"></div>
+    </div>
+</div>
+<script>
+    // 百度地图API功能
+//    var map = new BMap.Map("map");    // 创建Map实例
+//    map.centerAndZoom(new BMap.Point(112.500062,34.628076), 80);  // 初始化地图,设置中心点坐标和地图级别
+//    map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+//    map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+//    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+
+    // 百度地图API功能
+    var map = new BMap.Map("map");
+    var point = new BMap.Point(112.500062,34.628076);
+    var marker = new BMap.Marker(point);  // 创建标注
+
+    // 添加带有定位的导航控件
+    var navigationControl = new BMap.NavigationControl({
+        // 靠左上角位置
+        anchor: BMAP_ANCHOR_TOP_LEFT,
+        // LARGE类型
+        type: BMAP_NAVIGATION_CONTROL_LARGE,
+        // 启用显示定位
+        enableGeolocation: true
+    });
+    map.addControl(navigationControl);
+
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+    map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+    map.addOverlay(marker);              // 将标注添加到地图中
+    map.centerAndZoom(point, 80);
+    var opts = {
+        width : 200,     // 信息窗口宽度
+        height: 100,     // 信息窗口高度
+        title : "河南永湛环保科技有限公司" , // 信息窗口标题
+        enableMessage:true,//设置允许信息窗发送短息
+        message:""
+    }
+    var infoWindow = new BMap.InfoWindow("地址：洛阳市洛龙区863创智广场1号楼1113", opts);  // 创建信息窗口对象
+//    marker.addEventListener("click", function(){
+        map.openInfoWindow(infoWindow,point); //开启信息窗口
+//    });
+</script>
