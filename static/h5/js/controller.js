@@ -34,9 +34,8 @@ routeApp.controller('mainApp', function ($scope) {
 //swiper
 routeApp.controller('swiperCtrl', function ($scope, $routeParams, $http) {
 
-    $http.get(ip + '/api/v1/index/carousel')
+    $http.get(ip + '/api/v1/mobile/carousel')
         .success(function (data) {
-            console.log(data)
             $scope.dataList = data.data.slice(0, 5);
         })
 });

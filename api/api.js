@@ -6,6 +6,7 @@ var express = require('express');
 var router = express.Router();
 var data = require('../data.json');
 var carouselBanner = data.carouselBanner;
+var mobileBanner = data.mobileBanner;
 var productsShow = data.productsShow;
 var honorList = data.honorList;
 var projects = data.projects;
@@ -19,7 +20,15 @@ var products = data.products;
 router.get("/",function (req,res) {
     res.render('index');
 });
-//网站首页轮播图 api
+//h5首页轮播图 api
+router.get('/api/v1/mobile/carousel',function(req,res){
+
+    res.send({
+        data: mobileBanner
+    });
+
+});
+//首页轮播图 api
 router.get('/api/v1/index/carousel',function(req,res){
 
     res.send({
