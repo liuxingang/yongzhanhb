@@ -2,6 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8662d17f-4d09-4f56-a474-11143d4e904a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/case/1.png" afterPath="$PROJECT_DIR$/static/images/case/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/case/2.png" afterPath="$PROJECT_DIR$/static/images/case/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/case/3.png" afterPath="$PROJECT_DIR$/static/images/case/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/case/4.png" afterPath="$PROJECT_DIR$/static/images/case/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/case/5.png" afterPath="$PROJECT_DIR$/static/images/case/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/1.png" afterPath="$PROJECT_DIR$/static/images/smoke/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/2.png" afterPath="$PROJECT_DIR$/static/images/smoke/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/3.png" afterPath="$PROJECT_DIR$/static/images/smoke/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/4.png" afterPath="$PROJECT_DIR$/static/images/smoke/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/5.png" afterPath="$PROJECT_DIR$/static/images/smoke/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/6.png" afterPath="$PROJECT_DIR$/static/images/smoke/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/7.png" afterPath="$PROJECT_DIR$/static/images/smoke/7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/8.png" afterPath="$PROJECT_DIR$/static/images/smoke/8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/10.png" afterPath="$PROJECT_DIR$/static/images/wastewater/10.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/11.png" afterPath="$PROJECT_DIR$/static/images/wastewater/11.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/12.png" afterPath="$PROJECT_DIR$/static/images/wastewater/12.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/13.png" afterPath="$PROJECT_DIR$/static/images/wastewater/13.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/14.png" afterPath="$PROJECT_DIR$/static/images/wastewater/14.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/15.png" afterPath="$PROJECT_DIR$/static/images/wastewater/15.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/16.png" afterPath="$PROJECT_DIR$/static/images/wastewater/16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/17.png" afterPath="$PROJECT_DIR$/static/images/wastewater/17.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/3.png" afterPath="$PROJECT_DIR$/static/images/wastewater/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/4.png" afterPath="$PROJECT_DIR$/static/images/wastewater/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/5.png" afterPath="$PROJECT_DIR$/static/images/wastewater/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/6.png" afterPath="$PROJECT_DIR$/static/images/wastewater/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/7.png" afterPath="$PROJECT_DIR$/static/images/wastewater/7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/8.png" afterPath="$PROJECT_DIR$/static/images/wastewater/8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/9.png" afterPath="$PROJECT_DIR$/static/images/wastewater/9.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,72 +53,53 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="157" column="9" lean-forward="false" selection-start-line="157" selection-start-column="9" selection-end-line="157" selection-end-column="9" />
+            <state relative-caret-position="112">
+              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/images/carousel/1.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/images/case/1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/images/wastewater/1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/images/smoke/1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/images/smoke/8.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/h5/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
               <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact_detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/views/service/contact_detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="52" lean-forward="false" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="route.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/route.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="73" lean-forward="false" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/h5/views/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#4;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#p#1;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#p#2;n#div#1;n#div#5;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -99,26 +110,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4515">
               <caret line="301" column="14" lean-forward="false" selection-start-line="301" selection-start-column="14" selection-end-line="301" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/api.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/h5/js/controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="49" lean-forward="false" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -228,8 +219,8 @@
         <option value="$PROJECT_DIR$/static/h5/views/main.html" />
         <option value="$PROJECT_DIR$/data.json" />
         <option value="$PROJECT_DIR$/static/h5/css/main.css" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/static/h5/index.html" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
   </component>
@@ -245,7 +236,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="118" />
+    <option name="x" value="51" />
     <option name="y" value="67" />
     <option name="width" value="1229" />
     <option name="height" value="686" />
@@ -319,7 +310,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="h5" />
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yongzhanhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yongzhanhb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="case" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,19 +368,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/images/carousel" />
-      <recent name="$PROJECT_DIR$/static/h5/images/carousel" />
-      <recent name="$PROJECT_DIR$/static/views/service" />
-      <recent name="$PROJECT_DIR$/static/h5/images" />
-      <recent name="$PROJECT_DIR$/static/h5/views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/images/carousel/h5" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/static/lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images/case" />
+      <recent name="$PROJECT_DIR$/static/images/smoke" />
+      <recent name="$PROJECT_DIR$/static/images/wastewater" />
+      <recent name="$PROJECT_DIR$/static/images/carousel" />
+      <recent name="$PROJECT_DIR$/static/h5/images/carousel" />
     </key>
   </component>
   <component name="RunManager">
@@ -459,16 +472,16 @@
       <workItem from="1497334206039" duration="1164000" />
       <workItem from="1497336184982" duration="681000" />
       <workItem from="1497579135126" duration="1637000" />
-      <workItem from="1497606624796" duration="11000" />
+      <workItem from="1497606624796" duration="1119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238992000" />
+    <option name="totallyTimeSpent" value="240100000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="118" y="67" width="1229" height="686" extended-state="0" />
-    <editor active="true" />
+    <frame x="51" y="67" width="1229" height="686" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23427153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -478,7 +491,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31690142" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31690142" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -503,30 +516,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/views/about/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/views/about/bussiness_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/views/about/honor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="42" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/h5/views/colorlifeListTemp.html" />
-    <entry file="file://$PROJECT_DIR$/static/h5/views/jczbTemp.html" />
-    <entry file="file://$PROJECT_DIR$/static/h5/views/moreTemp.html" />
     <entry file="file://$PROJECT_DIR$/static/h5/views/ztbdTemp.html" />
     <entry file="file://$PROJECT_DIR$/static/h5/views/aboutBusinessTemp.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -688,11 +677,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/wastewater/1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/companynews/3-1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -798,20 +782,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="157" column="9" lean-forward="false" selection-start-line="157" selection-start-column="9" selection-end-line="157" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/h5/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/carousel/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/wastewater/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/smoke/6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/smoke/7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/smoke/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/smoke/8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/case/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
