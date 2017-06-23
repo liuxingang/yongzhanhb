@@ -44,6 +44,20 @@ router.get('/api/v1/index/products',function(req,res){
     });
 
 });
+//网站产品展示轮播图 废水处理
+router.get('/api/v1/products/wasteWater/index',function(req,res){
+    res.send({
+        data: products.wasteWater.slice(0,6)
+    });
+
+});
+//网站产品展示轮播图 烟气处理
+router.get('/api/v1/products/smoke/index',function(req,res){
+    res.send({
+        data: products.smoke.slice(0,6)
+    });
+
+});
 
 //网站首页资质荣誉轮播图
 router.get('/api/v1/index/honors',function(req,res){

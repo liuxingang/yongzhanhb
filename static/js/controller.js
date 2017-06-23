@@ -64,7 +64,7 @@ routeApp.controller('productCarouselCtrl', function($scope,$routeParams, $http) 
     });
 
 
-    $http.get(ip + "/api/v1/products/wasteWater")
+    $http.get(ip + "/api/v1/products/wasteWater/index")
         .success(function (data) {
             $scope.data = data.data.slice(0,6);
         });
@@ -89,7 +89,7 @@ routeApp.controller('productCarousel2Ctrl', function($scope,$routeParams, $http)
         });
     });
 
-    $http.get(ip + "/api/v1/products/smoke")
+    $http.get(ip + "/api/v1/products/smoke/index")
         .success(function (data) {
             $scope.data = data.data;
         });
