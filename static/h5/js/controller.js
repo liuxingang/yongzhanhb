@@ -461,6 +461,8 @@ routeApp.controller('smokeCtrl', function($scope,$routeParams, $http) {
     $http.get(ip + "/api/v1/products/smoke")
         .success(function (data) {
             $scope.data = data.data;
+            $scope.dataIndex = data.data.slice(0,6);
+
         });
 
 });
