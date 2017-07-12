@@ -2,57 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8662d17f-4d09-4f56-a474-11143d4e904a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/1-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/1-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/1-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/1-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/1.png" afterPath="$PROJECT_DIR$/static/images/equipment/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/10-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/10-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/10.png" afterPath="$PROJECT_DIR$/static/images/equipment/10.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/11-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/11-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/11-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/11-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/11-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/11-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/11.png" afterPath="$PROJECT_DIR$/static/images/equipment/11.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/12-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/12-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/12-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/12-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/12.png" afterPath="$PROJECT_DIR$/static/images/equipment/12.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/13-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/13-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/13-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/13-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/13-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/13-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/13-4.png" afterPath="$PROJECT_DIR$/static/images/equipment/13-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/14-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/14-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/14-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/14-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/14.png" afterPath="$PROJECT_DIR$/static/images/equipment/14.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/15-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/15-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/16-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/16-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/16-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/16-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/16-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/16-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/16.png" afterPath="$PROJECT_DIR$/static/images/equipment/16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/17-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/17-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/17-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/17-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/17.png" afterPath="$PROJECT_DIR$/static/images/equipment/17.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/18-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/18-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/18.png" afterPath="$PROJECT_DIR$/static/images/equipment/18.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/2-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/2-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/2-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/2-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/2.png" afterPath="$PROJECT_DIR$/static/images/equipment/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/3-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/3-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/3-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/3-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/3.png" afterPath="$PROJECT_DIR$/static/images/equipment/3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/4-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/4-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/4-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/4-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/4.png" afterPath="$PROJECT_DIR$/static/images/equipment/4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/5-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/5-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/5-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/5-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/5.png" afterPath="$PROJECT_DIR$/static/images/equipment/5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/6-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/6-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/6.png" afterPath="$PROJECT_DIR$/static/images/equipment/6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/7-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/7-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/7-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/7-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/7.png" afterPath="$PROJECT_DIR$/static/images/equipment/7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/8-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/8-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/8-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/8-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/8.png" afterPath="$PROJECT_DIR$/static/images/equipment/8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/9-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/9-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/9.png" afterPath="$PROJECT_DIR$/static/images/equipment/9.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -85,15 +34,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bussiness1.jpg" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bussiness1.jpg" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/images/about/bussiness1.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="18-2.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/images/equipment/18-2.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -321,28 +263,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yongzhanhb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yongzhanhb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="equipment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -483,7 +403,7 @@
       <workItem from="1498187520366" duration="1951000" />
       <workItem from="1498191686907" duration="483000" />
       <workItem from="1498957506981" duration="1352000" />
-      <workItem from="1499847384378" duration="5275000" />
+      <workItem from="1499847384378" duration="5625000" />
     </task>
     <task id="LOCAL-00001" summary="电话更换，图片更换">
       <created>1498958892141</created>
@@ -503,13 +423,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249515000" />
+    <option name="totallyTimeSpent" value="249865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="31" width="1229" height="686" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23427153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23427153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
