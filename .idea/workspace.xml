@@ -2,157 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8662d17f-4d09-4f56-a474-11143d4e904a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/1-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/1-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/1-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/1-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/1.png" afterPath="$PROJECT_DIR$/static/images/equipment/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/10-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/10-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/10.png" afterPath="$PROJECT_DIR$/static/images/equipment/10.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/11-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/11-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/11-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/11-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/11-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/11-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/11-4.png" afterPath="$PROJECT_DIR$/static/images/equipment/11-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/11.png" afterPath="$PROJECT_DIR$/static/images/equipment/11.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/12-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/12-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/12-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/12-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/12-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/12-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/12.png" afterPath="$PROJECT_DIR$/static/images/equipment/12.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/13-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/13-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/13-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/13-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/13-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/13-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/13-4.png" afterPath="$PROJECT_DIR$/static/images/equipment/13-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/13.png" afterPath="$PROJECT_DIR$/static/images/equipment/13.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/14-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/14-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/14-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/14-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/14-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/14-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/14.png" afterPath="$PROJECT_DIR$/static/images/equipment/14.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/15-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/15-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/15-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/15-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/15-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/15-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/15.png" afterPath="$PROJECT_DIR$/static/images/equipment/15.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/16-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/16-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/16-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/16-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/16-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/16-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/16.png" afterPath="$PROJECT_DIR$/static/images/equipment/16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/17-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/17-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/17-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/17-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/17.png" afterPath="$PROJECT_DIR$/static/images/equipment/17.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/18-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/18-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/18-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/18-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/18.png" afterPath="$PROJECT_DIR$/static/images/equipment/18.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/19-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/19-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/19.png" afterPath="$PROJECT_DIR$/static/images/equipment/19.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/2-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/2-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/2-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/2-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/2.png" afterPath="$PROJECT_DIR$/static/images/equipment/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/20-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/20-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/20-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/20-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/20.png" afterPath="$PROJECT_DIR$/static/images/equipment/20.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/3-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/3-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/3-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/3-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/3-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/3-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/3.png" afterPath="$PROJECT_DIR$/static/images/equipment/3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/4-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/4-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/4-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/4-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/4-3.png" afterPath="$PROJECT_DIR$/static/images/equipment/4-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/4.png" afterPath="$PROJECT_DIR$/static/images/equipment/4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/5-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/5-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/5-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/5-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/5.png" afterPath="$PROJECT_DIR$/static/images/equipment/5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/6-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/6-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/6.png" afterPath="$PROJECT_DIR$/static/images/equipment/6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/7-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/7-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/7-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/7-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/7.png" afterPath="$PROJECT_DIR$/static/images/equipment/7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/8-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/8-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/8-2.png" afterPath="$PROJECT_DIR$/static/images/equipment/8-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/8.png" afterPath="$PROJECT_DIR$/static/images/equipment/8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/9-1.png" afterPath="$PROJECT_DIR$/static/images/equipment/9-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/equipment/9.png" afterPath="$PROJECT_DIR$/static/images/equipment/9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/noise/1-1.png" afterPath="$PROJECT_DIR$/static/images/noise/1-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/noise/1-2.png" afterPath="$PROJECT_DIR$/static/images/noise/1-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/noise/1.png" afterPath="$PROJECT_DIR$/static/images/noise/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/1-1.png" afterPath="$PROJECT_DIR$/static/images/smoke/1-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/1-2.png" afterPath="$PROJECT_DIR$/static/images/smoke/1-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/1-3.png" afterPath="$PROJECT_DIR$/static/images/smoke/1-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/1-4.png" afterPath="$PROJECT_DIR$/static/images/smoke/1-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/1.png" afterPath="$PROJECT_DIR$/static/images/smoke/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/2-1.png" afterPath="$PROJECT_DIR$/static/images/smoke/2-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/2-2.png" afterPath="$PROJECT_DIR$/static/images/smoke/2-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/2-3.png" afterPath="$PROJECT_DIR$/static/images/smoke/2-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/2-4.png" afterPath="$PROJECT_DIR$/static/images/smoke/2-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/2.png" afterPath="$PROJECT_DIR$/static/images/smoke/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/3-1.png" afterPath="$PROJECT_DIR$/static/images/smoke/3-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/3.jpeg" afterPath="$PROJECT_DIR$/static/images/smoke/3.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/3.png" afterPath="$PROJECT_DIR$/static/images/smoke/3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/4-1.png" afterPath="$PROJECT_DIR$/static/images/smoke/4-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/4.jpeg" afterPath="$PROJECT_DIR$/static/images/smoke/4.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/4.png" afterPath="$PROJECT_DIR$/static/images/smoke/4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/5-1.png" afterPath="$PROJECT_DIR$/static/images/smoke/5-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/5.png" afterPath="$PROJECT_DIR$/static/images/smoke/5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/6-1.png" afterPath="$PROJECT_DIR$/static/images/smoke/6-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/6.png" afterPath="$PROJECT_DIR$/static/images/smoke/6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/7-1.png" afterPath="$PROJECT_DIR$/static/images/smoke/7-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/7.png" afterPath="$PROJECT_DIR$/static/images/smoke/7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/8-1.png" afterPath="$PROJECT_DIR$/static/images/smoke/8-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/8-2.png" afterPath="$PROJECT_DIR$/static/images/smoke/8-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/8-3.png" afterPath="$PROJECT_DIR$/static/images/smoke/8-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/8-4.png" afterPath="$PROJECT_DIR$/static/images/smoke/8-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/smoke/8.png" afterPath="$PROJECT_DIR$/static/images/smoke/8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/1-1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/1-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/1-2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/1-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/1-3.png" afterPath="$PROJECT_DIR$/static/images/wastewater/1-3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/10-1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/10-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/10-3.png" afterPath="$PROJECT_DIR$/static/images/wastewater/10-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/10-4.png" afterPath="$PROJECT_DIR$/static/images/wastewater/10-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/10-5.png" afterPath="$PROJECT_DIR$/static/images/wastewater/10-5.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/10.png" afterPath="$PROJECT_DIR$/static/images/wastewater/10.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/11-1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/11-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/11-2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/11-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/11.png" afterPath="$PROJECT_DIR$/static/images/wastewater/11.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/12-1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/12-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/12-2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/12-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/12.png" afterPath="$PROJECT_DIR$/static/images/wastewater/12.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/13-1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/13-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/13-2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/13-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/13.png" afterPath="$PROJECT_DIR$/static/images/wastewater/13.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/14-1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/14-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/14-2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/14-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/14-3.png" afterPath="$PROJECT_DIR$/static/images/wastewater/14-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/14-4.png" afterPath="$PROJECT_DIR$/static/images/wastewater/14-4.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/14.png" afterPath="$PROJECT_DIR$/static/images/wastewater/14.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/15-1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/15-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/15-2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/15-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/15.png" afterPath="$PROJECT_DIR$/static/images/wastewater/15.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/16.png" afterPath="$PROJECT_DIR$/static/images/wastewater/16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/17-1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/17-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/17-2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/17-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/17.png" afterPath="$PROJECT_DIR$/static/images/wastewater/17.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/2-1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/2-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/2-2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/2-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/2-3.png" afterPath="$PROJECT_DIR$/static/images/wastewater/2-3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/3-1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/3-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/3-2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/3-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/3-3.png" afterPath="$PROJECT_DIR$/static/images/wastewater/3-3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/3.png" afterPath="$PROJECT_DIR$/static/images/wastewater/3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/4-1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/4-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/4-2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/4-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/4-3.png" afterPath="$PROJECT_DIR$/static/images/wastewater/4-3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/4.png" afterPath="$PROJECT_DIR$/static/images/wastewater/4.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/5.png" afterPath="$PROJECT_DIR$/static/images/wastewater/5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/6-1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/6-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/6-2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/6-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/6.png" afterPath="$PROJECT_DIR$/static/images/wastewater/6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/7-0.png" afterPath="$PROJECT_DIR$/static/images/wastewater/7-0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/7-3.png" afterPath="$PROJECT_DIR$/static/images/wastewater/7-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/7-4.png" afterPath="$PROJECT_DIR$/static/images/wastewater/7-4.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/7.png" afterPath="$PROJECT_DIR$/static/images/wastewater/7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/8-1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/8-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/8-2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/8-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/8.png" afterPath="$PROJECT_DIR$/static/images/wastewater/8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/9-1.png" afterPath="$PROJECT_DIR$/static/images/wastewater/9-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/9-2.png" afterPath="$PROJECT_DIR$/static/images/wastewater/9-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/wastewater/9.png" afterPath="$PROJECT_DIR$/static/images/wastewater/9.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -461,29 +326,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="equipment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yongzhanhb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yongzhanhb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="case" />
+              <option name="myItemId" value="wastewater" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,11 +354,11 @@
       <recent name="$PROJECT_DIR$/static/lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images/wastewater" />
+      <recent name="$PROJECT_DIR$/static/images/case" />
       <recent name="$PROJECT_DIR$/static/images/equipment" />
       <recent name="$PROJECT_DIR$/static/images/noise" />
       <recent name="$PROJECT_DIR$/static/images/smoke" />
-      <recent name="$PROJECT_DIR$/static/images/wastewater" />
-      <recent name="$PROJECT_DIR$/static/images/tradenews" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -627,7 +470,7 @@
       <workItem from="1498187520366" duration="1951000" />
       <workItem from="1498191686907" duration="483000" />
       <workItem from="1498957506981" duration="1352000" />
-      <workItem from="1499847384378" duration="8660000" />
+      <workItem from="1499847384378" duration="8969000" />
     </task>
     <task id="LOCAL-00001" summary="电话更换，图片更换">
       <created>1498958892141</created>
@@ -647,11 +490,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252900000" />
+    <option name="totallyTimeSpent" value="253209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="29" width="1229" height="686" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23427153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -660,7 +502,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31690142" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31690142" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
