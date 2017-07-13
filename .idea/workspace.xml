@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8662d17f-4d09-4f56-a474-11143d4e904a" name="Default" comment="" />
+    <list default="true" id="8662d17f-4d09-4f56-a474-11143d4e904a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/about/about_banner.jpg" afterPath="$PROJECT_DIR$/static/images/about/about_banner.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/about/bussiness1.jpg" afterPath="$PROJECT_DIR$/static/images/about/bussiness1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/about/bussiness2.jpg" afterPath="$PROJECT_DIR$/static/images/about/bussiness2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/about/bussiness3.jpg" afterPath="$PROJECT_DIR$/static/images/about/bussiness3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/about/bussiness4.jpg" afterPath="$PROJECT_DIR$/static/images/about/bussiness4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/companynews/3-1.png" afterPath="$PROJECT_DIR$/static/images/companynews/3-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/companynews/5-1.png" afterPath="$PROJECT_DIR$/static/images/companynews/5-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/companynews/5-2.png" afterPath="$PROJECT_DIR$/static/images/companynews/5-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/companynews/5-3.png" afterPath="$PROJECT_DIR$/static/images/companynews/5-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/companynews/5-4.png" afterPath="$PROJECT_DIR$/static/images/companynews/5-4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/news/news_banner.jpg" afterPath="$PROJECT_DIR$/static/images/news/news_banner.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/noise/1-1.png" afterPath="$PROJECT_DIR$/static/images/noise/1-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/noise/1-2.png" afterPath="$PROJECT_DIR$/static/images/noise/1-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/noise/1.png" afterPath="$PROJECT_DIR$/static/images/noise/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/service/service_banner.jpg" afterPath="$PROJECT_DIR$/static/images/service/service_banner.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/service/technology1.png" afterPath="$PROJECT_DIR$/static/images/service/technology1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/service/technology2.png" afterPath="$PROJECT_DIR$/static/images/service/technology2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/service/technology3.png" afterPath="$PROJECT_DIR$/static/images/service/technology3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/service/technology4.png" afterPath="$PROJECT_DIR$/static/images/service/technology4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/service/technology5.png" afterPath="$PROJECT_DIR$/static/images/service/technology5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/service/technology6.png" afterPath="$PROJECT_DIR$/static/images/service/technology6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/serviceNews/2-1.png" afterPath="$PROJECT_DIR$/static/images/serviceNews/2-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/serviceNews/2-2.png" afterPath="$PROJECT_DIR$/static/images/serviceNews/2-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/serviceNews/3-1.png" afterPath="$PROJECT_DIR$/static/images/serviceNews/3-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/serviceNews/4-1.png" afterPath="$PROJECT_DIR$/static/images/serviceNews/4-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/serviceNews/4-2.png" afterPath="$PROJECT_DIR$/static/images/serviceNews/4-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/serviceNews/5-1.png" afterPath="$PROJECT_DIR$/static/images/serviceNews/5-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/serviceNews/5-2.png" afterPath="$PROJECT_DIR$/static/images/serviceNews/5-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/tradenews/4-1.png" afterPath="$PROJECT_DIR$/static/images/tradenews/4-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/tradenews/4-2.png" afterPath="$PROJECT_DIR$/static/images/tradenews/4-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/tradenews/4-3.png" afterPath="$PROJECT_DIR$/static/images/tradenews/4-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/tradenews/5-1.png" afterPath="$PROJECT_DIR$/static/images/tradenews/5-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/tradenews/5-2.png" afterPath="$PROJECT_DIR$/static/images/tradenews/5-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,50 +53,64 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/images/carousel/1.jpg">
+      <file leaf-file-name="1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/images/smoke/1.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3-1.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/images/companynews/3-1.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bussiness1.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/images/about/bussiness1.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1-1.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1-1.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/images/smoke/1-1.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/images/carousel/2.jpg">
+      <file leaf-file-name="1-3.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/images/smoke/1-3.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/images/carousel/3.jpg">
+      <file leaf-file-name="1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/images/wastewater/1.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/images/carousel/4.jpg">
+      <file leaf-file-name="5-3.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/images/tradenews/5-3.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6-1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/images/tradenews/6-1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-1.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/images/wastewater/1-1.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-2.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/images/wastewater/1-2.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1-3.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/images/wastewater/1-3.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -286,7 +335,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wastewater" />
+              <option name="myItemId" value="tradenews" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -314,11 +363,11 @@
       <recent name="$PROJECT_DIR$/static/lib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/images/smoke" />
-      <recent name="$PROJECT_DIR$/static/images/equipment" />
-      <recent name="$PROJECT_DIR$/static/images/case" />
-      <recent name="$PROJECT_DIR$/static/images" />
-      <recent name="$PROJECT_DIR$/static/images/wastewater" />
+      <recent name="$PROJECT_DIR$/static/images/tradenews" />
+      <recent name="$PROJECT_DIR$/static/images/serviceNews" />
+      <recent name="$PROJECT_DIR$/static/images/about" />
+      <recent name="$PROJECT_DIR$/static/images/companynews" />
+      <recent name="$PROJECT_DIR$/static/images/news" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -430,7 +479,7 @@
       <workItem from="1498187520366" duration="1951000" />
       <workItem from="1498191686907" duration="483000" />
       <workItem from="1498957506981" duration="1352000" />
-      <workItem from="1499847384378" duration="6187000" />
+      <workItem from="1499847384378" duration="7913000" />
     </task>
     <task id="LOCAL-00001" summary="电话更换，图片更换">
       <created>1498958892141</created>
@@ -450,12 +499,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250427000" />
+    <option name="totallyTimeSpent" value="252153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="29" width="1229" height="686" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23427153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23427153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -492,144 +542,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/h5/js/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="464" column="0" lean-forward="false" selection-start-line="464" selection-start-column="0" selection-end-line="465" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/product/product_banner.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/honor/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/honor/honor_banner.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/case/5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/case/5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/case/1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/wastewater/4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/case/4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/smoke/4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/smoke/6.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/case/3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/wastewater/5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/case/2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/case/zhitu-des/2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/wastewater/2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/wastewater/3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/smoke/5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/wastewater/1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/smoke/2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/wastewater/6.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/smoke/1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/haoli3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/top_bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/top_bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/second_nav_head.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/search.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/main-bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -680,16 +592,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/about/about_banner.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/carousel/h5/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/carousel/2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -705,36 +607,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/carousel/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/companynews/3-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/about/bussiness1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/equipment/1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/equipment/1-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/equipment/1-2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/equipment/2-2.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -745,7 +617,182 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/service/technology2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/service/service_banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/service/technology1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/news/news_banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/honor/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/honor/honor_banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/equipment/2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/equipment/1-2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/equipment/1-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/equipment/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/equipment/4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/companynews/5-2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/companynews/3-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/companynews/5-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/about/about_banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/about/bussiness1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/carousel/h5/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/carousel/h5/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/carousel/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/case/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/case/1-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/case/2-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/product/product_banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/serviceNews/2-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/serviceNews/2-2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/smoke/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/smoke/1-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/smoke/1-3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/tradenews/4-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/wastewater/1-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/wastewater/1-2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/wastewater/1-3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/wastewater/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/tradenews/7-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/tradenews/6-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/tradenews/5-3.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
