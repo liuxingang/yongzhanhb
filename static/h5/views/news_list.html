@@ -22,6 +22,12 @@
         padding:4px;
         position: relative;
     }
+    .news-list .a-change{
+        width: 80%;
+    }
+    .news-list .a-change p{
+        width: 100%;
+    }
     .a-change p{
         padding:0;
     }
@@ -73,7 +79,7 @@
     <div class="list-wrapper">
         <h3 ng-bind="data[0].channelName"></h3>
         <div class="" style="margin: 0 8px;">
-            <ul>
+            <ul class="news-list">
                 <li class="item" ng-repeat="item in data" style="">
                     <a class="a-change" href="#/news/{{urlType}}/detail/{{item.id}}">
                         <p ng-bind="item.title"></p>
