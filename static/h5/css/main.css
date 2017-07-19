@@ -320,6 +320,18 @@ nav{
     padding:0 12px 10px;
 }
 
+.xwzx  .a-change{
+    display: inline-block;
+    width: 80%;
+}
+.xwzx  .a-change p{
+    width:100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding:0 12px 10px;
+}
+
 
 /* news list temp*/
 
